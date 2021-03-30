@@ -1,0 +1,1377 @@
+
+out/test/Training_and_UoB/test/com/bham/fsd/groupmessenger/GroupMSGServerTest.class
+out/production/Training_and_UoB/Week_3_EQ_data.txt
+out/production/Training_and_UoB/Week_3_EQ.class
+out/production/Training_and_UoB/Week_2_EQ_Q3.class
+out/production/Training_and_UoB/Tools/test.txt
+out/production/Training_and_UoB/Tools/test.class
+out/production/Training_and_UoB/Tools/matrixShow.class
+out/production/Training_and_UoB/test/Tools/matrixShowTest.class
+out/production/Training_and_UoB/T_1003.class
+out/production/Training_and_UoB/T_1002.class
+out/production/Training_and_UoB/T_1001.class
+out/production/Training_and_UoB/Synchronization/Unsynchronized.class
+out/production/Training_and_UoB/Synchronization/myReentrantLock.class
+out/production/Training_and_UoB/Synchronization/methodSynchronized.class
+out/production/Training_and_UoB/Synchronization/Counter_Sync.class
+out/production/Training_and_UoB/Synchronization/Counter.class
+out/production/Training_and_UoB/Synchronization/blockSynchronized.class
+out/production/Training_and_UoB/String/demo02/Demo07StringCount.class
+out/production/Training_and_UoB/String/demo02/Demo06Practice.class
+out/production/Training_and_UoB/String/demo02/Demo05StringSplit.class
+out/production/Training_and_UoB/String/demo02/Demo04StringConvert.class
+out/production/Training_and_UoB/String/demo02/Demo03SubString.class
+out/production/Training_and_UoB/String/demo02/Demo02StringGet.class
+out/production/Training_and_UoB/String/demo02/Demo01StringEquals.class
+out/production/Training_and_UoB/String/demo01/Demo02StringPool.class
+out/production/Training_and_UoB/String/demo01/Demo01String.class
+out/production/Training_and_UoB/Static/Student.class
+out/production/Training_and_UoB/Static/Person.class
+out/production/Training_and_UoB/Static/MyClass.class
+out/production/Training_and_UoB/Static/intro.class
+out/production/Training_and_UoB/Static/Demo04Static.class
+out/production/Training_and_UoB/Static/Demo03StaticStudent.class
+out/production/Training_and_UoB/Static/Demo02StaticMethod.class
+out/production/Training_and_UoB/Static/Demo01StaticField.class
+out/production/Training_and_UoB/src/sample/Main.class
+out/production/Training_and_UoB/src/sample/Launcher.class
+out/production/Training_and_UoB/src.rar
+out/production/Training_and_UoB/SleepExample.class
+out/production/Training_and_UoB/Server.class
+out/production/Training_and_UoB/Scanner/Demo03ScannerMax.class
+out/production/Training_and_UoB/Scanner/Demo02ScannerSum.class
+out/production/Training_and_UoB/Scanner/Demo01Scanner.class
+out/production/Training_and_UoB/sample/sample.fxml
+out/production/Training_and_UoB/sample/Controller.class
+out/production/Training_and_UoB/Random/Demo04RandomGame.class
+out/production/Training_and_UoB/Random/Demo03Random.class
+out/production/Training_and_UoB/Random/Demo02Random.class
+out/production/Training_and_UoB/Random/Demo01Random.class
+out/production/Training_and_UoB/postgresql-42.2.18.jar
+out/production/Training_and_UoB/Polymorphism/demo05/USB.class
+out/production/Training_and_UoB/Polymorphism/demo05/Mouse.class
+out/production/Training_and_UoB/Polymorphism/demo05/Laptop.class
+out/production/Training_and_UoB/Polymorphism/demo05/Keyboard.class
+out/production/Training_and_UoB/Polymorphism/demo05/DemoMain.class
+out/production/Training_and_UoB/Polymorphism/demo04/object_Upward_Downcast.class
+out/production/Training_and_UoB/Polymorphism/demo04/Dog.class
+out/production/Training_and_UoB/Polymorphism/demo04/Demo02Instanceof.class
+out/production/Training_and_UoB/Polymorphism/demo04/Demo01Main.class
+out/production/Training_and_UoB/Polymorphism/demo04/Cat.class
+out/production/Training_and_UoB/Polymorphism/demo04/Animal.class
+out/production/Training_and_UoB/Polymorphism/demo03/benefitOfPolymorphism.class
+out/production/Training_and_UoB/Polymorphism/demo02/Zi.class
+out/production/Training_and_UoB/Polymorphism/demo02/Fu.class
+out/production/Training_and_UoB/Polymorphism/demo02/Demo02MultiMethod.class
+out/production/Training_and_UoB/Polymorphism/demo02/Demo01MultiField.class
+out/production/Training_and_UoB/Polymorphism/demo01/Zi.class
+out/production/Training_and_UoB/Polymorphism/demo01/Fu.class
+out/production/Training_and_UoB/Polymorphism/demo01/Demo01Multi.class
+out/production/Training_and_UoB/Plot.class
+out/production/Training_and_UoB/out/production/FSD_Ass_1/postgresql-42.2.18.jar
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/uiDesigner.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/sqldialects.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/modules.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/misc.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/libraries/postgresql_42_2_18.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/FSD_Ass_1.iml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/encodings.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ.meta
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/dataSources.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/codeStyles/Project.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/codeStyles/codeStyleConfig.xml
+out/production/Training_and_UoB/out/production/FSD_Ass_1/.idea/aws.xml
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo05/Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo05/Demo01Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo04/Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo04/Person.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo04/Demo02Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo04/Demo01Person.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Person.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Demo04Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Demo03Person.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Demo02Method.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo03/Demo01VariableDifference.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Phone.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Demo05PhoneReturn.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Demo04PhoneParam.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Demo03PhoneSame.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Demo02PhoneTwo.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo02/Demo01PhoneOne.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo01/Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo01/Demo02Student.class
+out/production/Training_and_UoB/OOP_Object_Oriented_Programming/demo01/Demo01PrintArray.class
+out/production/Training_and_UoB/Object/Person.class
+out/production/Training_and_UoB/Object/Demo03Objects.class
+out/production/Training_and_UoB/Object/Demo02Equals.class
+out/production/Training_and_UoB/Object/Demo01ToString.class
+out/production/Training_and_UoB/MServer.class
+out/production/Training_and_UoB/Method/demo03/Demo04OverloadPrint.class
+out/production/Training_and_UoB/Method/demo03/Demo03OverloadJudge.class
+out/production/Training_and_UoB/Method/demo03/Demo02MethodOverloadSame.class
+out/production/Training_and_UoB/Method/demo03/Demo01MethodOverload.class
+out/production/Training_and_UoB/Method/demo02/Demo4MethodNotice.class
+out/production/Training_and_UoB/Method/demo02/Demo03MethodPrint.class
+out/production/Training_and_UoB/Method/demo02/Demo02MethodSum.class
+out/production/Training_and_UoB/Method/demo02/Demo01MethodSame.class
+out/production/Training_and_UoB/Method/demo01/Demo04MethodReturn.class
+out/production/Training_and_UoB/Method/demo01/Demo03MethodParam.class
+out/production/Training_and_UoB/Method/demo01/Demo02MethodDefine.class
+out/production/Training_and_UoB/Method/demo01/Demo01Method.class
+out/production/Training_and_UoB/MClient.class
+out/production/Training_and_UoB/MacdonellDF.csv
+out/production/Training_and_UoB/Loop/Demo17loopHourAndMinute.class
+out/production/Training_and_UoB/Loop/Demo12HundredSum.class
+out/production/Training_and_UoB/JoinExample.class
+out/production/Training_and_UoB/InteruptExample.class
+out/production/Training_and_UoB/Interface_As/demo02/SkillImpl.class
+out/production/Training_and_UoB/Interface_As/demo02/Skill.class
+out/production/Training_and_UoB/Interface_As/demo02/Hero.class
+out/production/Training_and_UoB/Interface_As/demo02/DemoInterface.class
+out/production/Training_and_UoB/Interface_As/demo02/DemoGame.class
+out/production/Training_and_UoB/Interface_As/demo02/DemoGame$2.class
+out/production/Training_and_UoB/Interface_As/demo02/DemoGame$1.class
+out/production/Training_and_UoB/Interface_As/demo01/Weapon.class
+out/production/Training_and_UoB/Interface_As/demo01/Hero.class
+out/production/Training_and_UoB/Interface_As/demo01/DemoMain.class
+out/production/Training_and_UoB/Interface/demo03/MyInterfaceImpl.class
+out/production/Training_and_UoB/Interface/demo03/MyInterfaceB.class
+out/production/Training_and_UoB/Interface/demo03/MyInterfaceA.class
+out/production/Training_and_UoB/Interface/demo03/MyInterface.class
+out/production/Training_and_UoB/Interface/demo03/Demo01Relations.class
+out/production/Training_and_UoB/Interface/demo02/Zi.class
+out/production/Training_and_UoB/Interface/demo02/MyInterfaceImpl.class
+out/production/Training_and_UoB/Interface/demo02/MyInterfaceB.class
+out/production/Training_and_UoB/Interface/demo02/MyInterfaceAbstract.class
+out/production/Training_and_UoB/Interface/demo02/MyInterfaceA.class
+out/production/Training_and_UoB/Interface/demo02/MyInterface.class
+out/production/Training_and_UoB/Interface/demo02/Fu.class
+out/production/Training_and_UoB/Interface/demo02/Demo01Interface.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceStaticImpl.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceStatic.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfacePrivateB.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfacePrivateAImpl.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfacePrivateA.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceDefaultB.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceDefaultA.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceDefault.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceConst.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceAbstractImpl.class
+out/production/Training_and_UoB/Interface/demo01/MyInterfaceAbstract.class
+out/production/Training_and_UoB/Interface/demo01/Demo05Interface.class
+out/production/Training_and_UoB/Interface/demo01/Demo04Interface.class
+out/production/Training_and_UoB/Interface/demo01/Demo03Interface.class
+out/production/Training_and_UoB/Interface/demo01/Demo02Interface.class
+out/production/Training_and_UoB/Interface/demo01/Demo01Interface.class
+out/production/Training_and_UoB/InnerClass/demo03/MyInterfaceImpl.class
+out/production/Training_and_UoB/InnerClass/demo03/MyInterface.class
+out/production/Training_and_UoB/InnerClass/demo03/DemoMain.class
+out/production/Training_and_UoB/InnerClass/demo03/DemoMain$3.class
+out/production/Training_and_UoB/InnerClass/demo03/DemoMain$2.class
+out/production/Training_and_UoB/InnerClass/demo03/DemoMain$1.class
+out/production/Training_and_UoB/InnerClass/demo02/Outer.class
+out/production/Training_and_UoB/InnerClass/demo02/Outer$1Inner.class
+out/production/Training_and_UoB/InnerClass/demo02/MyOuter.class
+out/production/Training_and_UoB/InnerClass/demo02/MyOuter$1MyInner.class
+out/production/Training_and_UoB/InnerClass/demo02/DemoMain.class
+out/production/Training_and_UoB/InnerClass/demo01/Outer.class
+out/production/Training_and_UoB/InnerClass/demo01/Outer$Inner.class
+out/production/Training_and_UoB/InnerClass/demo01/Demo02InnerClass.class
+out/production/Training_and_UoB/InnerClass/demo01/Demo01InnerClass.class
+out/production/Training_and_UoB/InnerClass/demo01/Body.class
+out/production/Training_and_UoB/InnerClass/demo01/Body$Heart.class
+out/production/Training_and_UoB/Inherit/demo10/Zi.class
+out/production/Training_and_UoB/Inherit/demo10/Fu.class
+out/production/Training_and_UoB/Inherit/demo10/Demo.class
+out/production/Training_and_UoB/Inherit/demo09/Zi.class
+out/production/Training_and_UoB/Inherit/demo09/Fu.class
+out/production/Training_and_UoB/Inherit/demo08/Zi.class
+out/production/Training_and_UoB/Inherit/demo08/Fu.class
+out/production/Training_and_UoB/Inherit/demo07/Zi.class
+out/production/Training_and_UoB/Inherit/demo07/Fu.class
+out/production/Training_and_UoB/Inherit/demo07/Demo01Constructor.class
+out/production/Training_and_UoB/Inherit/demo06/Phone.class
+out/production/Training_and_UoB/Inherit/demo06/NewPhone.class
+out/production/Training_and_UoB/Inherit/demo06/Demo01Phone.class
+out/production/Training_and_UoB/Inherit/demo05/Zi.class
+out/production/Training_and_UoB/Inherit/demo05/Fu.class
+out/production/Training_and_UoB/Inherit/demo05/Demo01Override.class
+out/production/Training_and_UoB/Inherit/demo04/Zi.class
+out/production/Training_and_UoB/Inherit/demo04/Fu.class
+out/production/Training_and_UoB/Inherit/demo04/Demo01ExtendsMethod.class
+out/production/Training_and_UoB/Inherit/demo03/Zi.class
+out/production/Training_and_UoB/Inherit/demo03/Fu.class
+out/production/Training_and_UoB/Inherit/demo03/Demo01ExtendsField.class
+out/production/Training_and_UoB/Inherit/demo02/Zi.class
+out/production/Training_and_UoB/Inherit/demo02/Fu.class
+out/production/Training_and_UoB/Inherit/demo02/Demo01ExtendsField.class
+out/production/Training_and_UoB/Inherit/demo01/Teacher.class
+out/production/Training_and_UoB/Inherit/demo01/Employee.class
+out/production/Training_and_UoB/Inherit/demo01/Demo01Extends.class
+out/production/Training_and_UoB/Inherit/demo01/Assistant.class
+out/production/Training_and_UoB/HypothesisFunction.class
+out/production/Training_and_UoB/GradientDescent.class
+out/production/Training_and_UoB/Final/demo02/sub/Stranger.class
+out/production/Training_and_UoB/Final/demo02/sub/MySon.class
+out/production/Training_and_UoB/Final/demo02/MyClass.class
+out/production/Training_and_UoB/Final/demo02/MyAnother.class
+out/production/Training_and_UoB/Final/demo02/Demo01Main.class
+out/production/Training_and_UoB/Final/demo01/Zi.class
+out/production/Training_and_UoB/Final/demo01/Student.class
+out/production/Training_and_UoB/Final/demo01/Person.class
+out/production/Training_and_UoB/Final/demo01/MySubClass.class
+out/production/Training_and_UoB/Final/demo01/MyClass.class
+out/production/Training_and_UoB/Final/demo01/Fu.class
+out/production/Training_and_UoB/Final/demo01/Demo01Final.class
+out/production/Training_and_UoB/Exercise3_slu.class
+out/production/Training_and_UoB/Exercise3.class
+out/production/Training_and_UoB/Exercise2_slu.class
+out/production/Training_and_UoB/Exercise2.class
+out/production/Training_and_UoB/Exercise1b.class
+out/production/Training_and_UoB/Exercise1a.class
+out/production/Training_and_UoB/ExecuterExample.class
+out/production/Training_and_UoB/Example2.class
+out/production/Training_and_UoB/Example1.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$6.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$5.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$4.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$3.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$2.class
+out/production/Training_and_UoB/EG_faHongBao/RedPacketFrame$1.class
+out/production/Training_and_UoB/EG_faHongBao/RandomMode.class
+out/production/Training_and_UoB/EG_faHongBao/OpenMode.class
+out/production/Training_and_UoB/EG_faHongBao/NormalMode.class
+out/production/Training_and_UoB/EG_faHongBao/MyRed.class
+out/production/Training_and_UoB/EG_faHongBao/Bootstrap.class
+out/production/Training_and_UoB/DBClientHandler.class
+out/production/Training_and_UoB/DateClass/Demo02Date.class
+out/production/Training_and_UoB/DateClass/Demo01Date.class
+out/production/Training_and_UoB/Database.class
+out/production/Training_and_UoB/Data.class
+out/production/Training_and_UoB/com/bham/pij/assignments/rps/RockPaperScissors.class
+out/production/Training_and_UoB/com/bham/pij/assignments/rps/Hangman.class
+out/production/Training_and_UoB/com/bham/pij/assignments/rps/FalloutTerminal.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/TestPontoon.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/test.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Pontoon.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Player.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Deck.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/CardGame.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Card.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Card$Value.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Card$Suit.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/Card$1.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/BinaryTree.class
+out/production/Training_and_UoB/com/bham/pij/assignments/pontoon/2133456.zip
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/to-interview.txt
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/to-interview-table-format.csv
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/to-interview-experience.txt
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/tableBuilder.class
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/screenshot-candidates.docx
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/Platform.class
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/CleaningUp.class
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/cleancv.txt
+out/production/Training_and_UoB/com/bham/pij/assignments/candidates/CandidatesToInterview.class
+out/production/Training_and_UoB/com/bham/pij/assignments/calculator/TestCalculator.class
+out/production/Training_and_UoB/com/bham/pij/assignments/calculator/Test_C.class
+out/production/Training_and_UoB/com/bham/pij/assignments/calculator/Calculator_2.class
+out/production/Training_and_UoB/com/bham/pij/assignments/calculator/Calculator.class
+out/production/Training_and_UoB/com/bham/pij/assignments/calculator/2133456.zip
+out/production/Training_and_UoB/com/bham/fsd/groupmessenger/GroupMSGServer.class
+out/production/Training_and_UoB/ClientHandler.class
+out/production/Training_and_UoB/Client.class
+out/production/Training_and_UoB/C_5/C_5_9.class
+out/production/Training_and_UoB/C_5/C_5_8.class
+out/production/Training_and_UoB/C_5/C_5_7.class
+out/production/Training_and_UoB/C_5/C_5_6.class
+out/production/Training_and_UoB/C_5/C_5_5.class
+out/production/Training_and_UoB/C_5/C_5_4.class
+out/production/Training_and_UoB/C_5/C_5_3.class
+out/production/Training_and_UoB/C_5/C_5_23.class
+out/production/Training_and_UoB/C_5/C_5_22.class
+out/production/Training_and_UoB/C_5/C_5_21.class
+out/production/Training_and_UoB/C_5/C_5_20.class
+out/production/Training_and_UoB/C_5/C_5_2.class
+out/production/Training_and_UoB/C_5/C_5_19.class
+out/production/Training_and_UoB/C_5/C_5_18.class
+out/production/Training_and_UoB/C_5/C_5_17.class
+out/production/Training_and_UoB/C_5/C_5_16.class
+out/production/Training_and_UoB/C_5/C_5_15.class
+out/production/Training_and_UoB/C_5/C_5_14.class
+out/production/Training_and_UoB/C_5/C_5_13.class
+out/production/Training_and_UoB/C_5/C_5_12.class
+out/production/Training_and_UoB/C_5/C_5_11.class
+out/production/Training_and_UoB/C_5/C_5_10.class
+out/production/Training_and_UoB/C_5/C_5_1.class
+out/production/Training_and_UoB/C_4/C_4_9.class
+out/production/Training_and_UoB/C_4/C_4_8.class
+out/production/Training_and_UoB/C_4/C_4_7.class
+out/production/Training_and_UoB/C_4/C_4_6.class
+out/production/Training_and_UoB/C_4/C_4_5.class
+out/production/Training_and_UoB/C_4/C_4_4.class
+out/production/Training_and_UoB/C_4/C_4_3.class
+out/production/Training_and_UoB/C_4/C_4_26.class
+out/production/Training_and_UoB/C_4/C_4_25.class
+out/production/Training_and_UoB/C_4/C_4_24.class
+out/production/Training_and_UoB/C_4/C_4_23.class
+out/production/Training_and_UoB/C_4/C_4_22.class
+out/production/Training_and_UoB/C_4/C_4_21.class
+out/production/Training_and_UoB/C_4/C_4_20.class
+out/production/Training_and_UoB/C_4/C_4_2.class
+out/production/Training_and_UoB/C_4/C_4_19.class
+out/production/Training_and_UoB/C_4/C_4_18.class
+out/production/Training_and_UoB/C_4/C_4_17.class
+out/production/Training_and_UoB/C_4/C_4_16.class
+out/production/Training_and_UoB/C_4/C_4_15.class
+out/production/Training_and_UoB/C_4/C_4_14.class
+out/production/Training_and_UoB/C_4/C_4_13.class
+out/production/Training_and_UoB/C_4/C_4_12.class
+out/production/Training_and_UoB/C_4/C_4_11.class
+out/production/Training_and_UoB/C_4/C_4_10.class
+out/production/Training_and_UoB/C_4/C_4_1.class
+out/production/Training_and_UoB/C_3/C_3_9.class
+out/production/Training_and_UoB/C_3/C_3_8.class
+out/production/Training_and_UoB/C_3/C_3_7.class
+out/production/Training_and_UoB/C_3/C_3_6.class
+out/production/Training_and_UoB/C_3/C_3_5.class
+out/production/Training_and_UoB/C_3/C_3_5$day.class
+out/production/Training_and_UoB/C_3/C_3_4.class
+out/production/Training_and_UoB/C_3/C_3_34.class
+out/production/Training_and_UoB/C_3/C_3_33.class
+out/production/Training_and_UoB/C_3/C_3_32.class
+out/production/Training_and_UoB/C_3/C_3_31.class
+out/production/Training_and_UoB/C_3/C_3_30.class
+out/production/Training_and_UoB/C_3/C_3_3.class
+out/production/Training_and_UoB/C_3/C_3_29.class
+out/production/Training_and_UoB/C_3/C_3_28.class
+out/production/Training_and_UoB/C_3/C_3_27.class
+out/production/Training_and_UoB/C_3/C_3_26.class
+out/production/Training_and_UoB/C_3/C_3_25.class
+out/production/Training_and_UoB/C_3/C_3_24.class
+out/production/Training_and_UoB/C_3/C_3_24$Suits.class
+out/production/Training_and_UoB/C_3/C_3_24$Cards.class
+out/production/Training_and_UoB/C_3/C_3_23.class
+out/production/Training_and_UoB/C_3/C_3_22.class
+out/production/Training_and_UoB/C_3/C_3_21.class
+out/production/Training_and_UoB/C_3/C_3_21$Months.class
+out/production/Training_and_UoB/C_3/C_3_20.class
+out/production/Training_and_UoB/C_3/C_3_2.class
+out/production/Training_and_UoB/C_3/C_3_19.class
+out/production/Training_and_UoB/C_3/C_3_18.class
+out/production/Training_and_UoB/C_3/C_3_17.class
+out/production/Training_and_UoB/C_3/C_3_17$GameContents.class
+out/production/Training_and_UoB/C_3/C_3_16.class
+out/production/Training_and_UoB/C_3/C_3_15.class
+out/production/Training_and_UoB/C_3/C_3_14.class
+out/production/Training_and_UoB/C_3/C_3_13.class
+out/production/Training_and_UoB/C_3/C_3_12.class
+out/production/Training_and_UoB/C_3/C_3_11.class
+out/production/Training_and_UoB/C_3/C_3_11$months.class
+out/production/Training_and_UoB/C_3/C_3_10.class
+out/production/Training_and_UoB/C_3/C_3_1.class
+out/production/Training_and_UoB/C_2/C_2_9.class
+out/production/Training_and_UoB/C_2/C_2_8.class
+out/production/Training_and_UoB/C_2/C_2_7.class
+out/production/Training_and_UoB/C_2/C_2_6.class
+out/production/Training_and_UoB/C_2/C_2_5.class
+out/production/Training_and_UoB/C_2/C_2_4.class
+out/production/Training_and_UoB/C_2/C_2_3.class
+out/production/Training_and_UoB/C_2/C_2_23.class
+out/production/Training_and_UoB/C_2/C_2_22.class
+out/production/Training_and_UoB/C_2/C_2_21.class
+out/production/Training_and_UoB/C_2/C_2_20.class
+out/production/Training_and_UoB/C_2/C_2_2.class
+out/production/Training_and_UoB/C_2/C_2_19.class
+out/production/Training_and_UoB/C_2/C_2_18.class
+out/production/Training_and_UoB/C_2/C_2_17.class
+out/production/Training_and_UoB/C_2/C_2_16.class
+out/production/Training_and_UoB/C_2/C_2_15.class
+out/production/Training_and_UoB/C_2/C_2_14.class
+out/production/Training_and_UoB/C_2/C_2_13.class
+out/production/Training_and_UoB/C_2/C_2_12.class
+out/production/Training_and_UoB/C_2/C_2_11.class
+out/production/Training_and_UoB/C_2/C_2_10.class
+out/production/Training_and_UoB/C_2/C_2_1.class
+out/production/Training_and_UoB/C_1/C_1_9.class
+out/production/Training_and_UoB/C_1/C_1_8.class
+out/production/Training_and_UoB/C_1/C_1_7.class
+out/production/Training_and_UoB/C_1/C_1_6.class
+out/production/Training_and_UoB/C_1/C_1_5.class
+out/production/Training_and_UoB/C_1/C_1_4.class
+out/production/Training_and_UoB/C_1/C_1_3.class
+out/production/Training_and_UoB/C_1/C_1_2.class
+out/production/Training_and_UoB/C_1/C_1_13.class
+out/production/Training_and_UoB/C_1/C_1_12.class
+out/production/Training_and_UoB/C_1/C_1_11.class
+out/production/Training_and_UoB/C_1/C_1_10.class
+out/production/Training_and_UoB/C_1/C_1_1.class
+out/production/Training_and_UoB/C1/C17.class
+out/production/Training_and_UoB/C1/C16.class
+out/production/Training_and_UoB/C1/C15.class
+out/production/Training_and_UoB/C1/C13.class
+out/production/Training_and_UoB/C1/C12.class
+out/production/Training_and_UoB/C1/C118.class
+out/production/Training_and_UoB/C1/C116.class
+out/production/Training_and_UoB/C1/C115.class
+out/production/Training_and_UoB/C1/C114.class
+out/production/Training_and_UoB/C1/C113.class
+out/production/Training_and_UoB/C1/C112.class
+out/production/Training_and_UoB/C1/C11.class
+out/production/Training_and_UoB/BinarySearchTrees/run
+out/production/Training_and_UoB/BinarySearchTrees/compile
+out/production/Training_and_UoB/BinarySearchTrees/clean
+out/production/Training_and_UoB/BinarySearchTrees/bst/Sample3.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/Sample2.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/Sample.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/IntString.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/Fork.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/Empty.class
+out/production/Training_and_UoB/BinarySearchTrees/bst/Bst.class
+out/production/Training_and_UoB/BinarySearch.class
+out/production/Training_and_UoB/bham/fsd/assignments/jabberserver/JabberServer.class
+out/production/Training_and_UoB/Assignment/MSever_A.class
+out/production/Training_and_UoB/Assignment/MClient_R.class
+out/production/Training_and_UoB/Assignment/Handler.class
+out/production/Training_and_UoB/Ass_1_weka.class
+out/production/Training_and_UoB/Arrays/Demo04MathPractise.class
+out/production/Training_and_UoB/Arrays/Demo03Math.class
+out/production/Training_and_UoB/Arrays/Demo02ArraysPractise.class
+out/production/Training_and_UoB/Arrays/Demo01Arrays.class
+out/production/Training_and_UoB/ArrayList/demo02/Student.class
+out/production/Training_and_UoB/ArrayList/demo02/Demo04ArrayListReturn.class
+out/production/Training_and_UoB/ArrayList/demo02/Demo03ArrayListPrint.class
+out/production/Training_and_UoB/ArrayList/demo02/Demo02ArrayListStudent.class
+out/production/Training_and_UoB/ArrayList/demo02/Demo01ArrayListRandom.class
+out/production/Training_and_UoB/ArrayList/demo01/Person.class
+out/production/Training_and_UoB/ArrayList/demo01/Demo05ArrayListBasic.class
+out/production/Training_and_UoB/ArrayList/demo01/Demo04ArrayListEach.class
+out/production/Training_and_UoB/ArrayList/demo01/Demo03ArrayListMethod.class
+out/production/Training_and_UoB/ArrayList/demo01/Demo02ArrayList.class
+out/production/Training_and_UoB/ArrayList/demo01/Demo01ArrayList.class
+out/production/Training_and_UoB/Array/demo04/Demo02ArrayReturn.class
+out/production/Training_and_UoB/Array/demo04/Demo01ArrayParam.class
+out/production/Training_and_UoB/Array/demo03/Demo07ArrayReverse.class
+out/production/Training_and_UoB/Array/demo03/Demo06ArrayMin.class
+out/production/Training_and_UoB/Array/demo03/Demo05ArrayMax.class
+out/production/Training_and_UoB/Array/demo03/Demo04Array.class
+out/production/Training_and_UoB/Array/demo03/Demo03ArrayLength.class
+out/production/Training_and_UoB/Array/demo03/Demo02ArrayNull.class
+out/production/Training_and_UoB/Array/demo03/Demo01ArrayIndex.class
+out/production/Training_and_UoB/Array/demo02/Demo03ArraySame.class
+out/production/Training_and_UoB/Array/demo02/Demo02ArrayTwo.class
+out/production/Training_and_UoB/Array/demo02/Demo01ArrayOne.class
+out/production/Training_and_UoB/Array/demo01/Demo05ArrayUse.class
+out/production/Training_and_UoB/Array/demo01/Demo04ArrayUse.class
+out/production/Training_and_UoB/Array/demo01/Demo03Array.class
+out/production/Training_and_UoB/Array/demo01/Demo02Array.class
+out/production/Training_and_UoB/Array/demo01/Demo01Array.class
+out/production/Training_and_UoB/Anonymous/Person.class
+out/production/Training_and_UoB/Anonymous/Demo02Anonymous.class
+out/production/Training_and_UoB/Anonymous/Demo01Anonymous.class
+out/production/Training_and_UoB/Account.class
+out/production/Training_and_UoB/Abstract/demo04/User.class
+out/production/Training_and_UoB/Abstract/demo04/Member.class
+out/production/Training_and_UoB/Abstract/demo04/Manager.class
+out/production/Training_and_UoB/Abstract/demo04/MainRedPacket.class
+out/production/Training_and_UoB/Abstract/demo03/DogGolden.class
+out/production/Training_and_UoB/Abstract/demo03/Dog2Ha.class
+out/production/Training_and_UoB/Abstract/demo03/Dog.class
+out/production/Training_and_UoB/Abstract/demo03/DemoMain.class
+out/production/Training_and_UoB/Abstract/demo03/Animal.class
+out/production/Training_and_UoB/Abstract/demo02/Zi.class
+out/production/Training_and_UoB/Abstract/demo02/MyAbstract.class
+out/production/Training_and_UoB/Abstract/demo02/Fu.class
+out/production/Training_and_UoB/Abstract/demo01/DemoMain.class
+out/production/Training_and_UoB/Abstract/demo01/Cat.class
+out/production/Training_and_UoB/Abstract/demo01/Animal.class
+out/production/Training_and_UoB/_1.class
+out/production/Training_and_UoB/.idea/uiDesigner.xml
+out/production/Training_and_UoB/.idea/sqldialects.xml
+out/production/Training_and_UoB/.idea/modules.xml
+out/production/Training_and_UoB/.idea/misc.xml
+out/production/Training_and_UoB/.idea/libraries/postgresql_42_2_18.xml
+out/production/Training_and_UoB/.idea/FSD_Ass_1.iml
+out/production/Training_and_UoB/.idea/encodings.xml
+out/production/Training_and_UoB/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta
+out/production/Training_and_UoB/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta
+out/production/Training_and_UoB/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta
+out/production/Training_and_UoB/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace/storage_v2/_src_/database/postgres.edMnLQ.meta
+out/production/Training_and_UoB/.idea/dataSources/030cd2e9-46ba-4b0c-8364-d2d65a981ace.xml
+out/production/Training_and_UoB/.idea/dataSources.xml
+out/production/Training_and_UoB/.idea/codeStyles/Project.xml
+out/production/Training_and_UoB/.idea/codeStyles/codeStyleConfig.xml
+out/production/Training_and_UoB/.idea/aws.xml
+out/production/Training & UoB/WriteCustomerList.class
+out/production/Training & UoB/WorkingSwitch.class
+out/production/Training & UoB/WorkingIfElse.class
+out/production/Training & UoB/WorkingIf.class
+out/production/Training & UoB/Triangle.class
+out/production/Training & UoB/TestSandwich.class
+out/production/Training & UoB/TestFitnessTracker2.class
+out/production/Training & UoB/TestFitnessTracker.class
+out/production/Training & UoB/test.class
+out/production/Training & UoB/T_1003.class
+out/production/Training & UoB/T_1002.class
+out/production/Training & UoB/T_1001.class
+out/production/Training & UoB/StudentsStanding2.class
+out/production/Training & UoB/StudentsStanding.class
+out/production/Training & UoB/Student.class
+out/production/Training & UoB/String/demo02/Demo07StringCount.class
+out/production/Training & UoB/String/demo02/Demo06Practice.class
+out/production/Training & UoB/String/demo02/Demo05StringSplit.class
+out/production/Training & UoB/String/demo02/Demo04StringConvert.class
+out/production/Training & UoB/String/demo02/Demo03SubString.class
+out/production/Training & UoB/String/demo02/Demo02StringGet.class
+out/production/Training & UoB/String/demo02/Demo01StringEquals.class
+out/production/Training & UoB/String/demo01/Demo02StringPool.class
+out/production/Training & UoB/String/demo01/Demo01String.class
+out/production/Training & UoB/Static/Student.class
+out/production/Training & UoB/Static/Person.class
+out/production/Training & UoB/Static/MyClass.class
+out/production/Training & UoB/Static/intro.class
+out/production/Training & UoB/Static/Demo04Static.class
+out/production/Training & UoB/Static/Demo03StaticStudent.class
+out/production/Training & UoB/Static/Demo02StaticMethod.class
+out/production/Training & UoB/Static/Demo01StaticField.class
+out/production/Training & UoB/ShowStudent2.class
+out/production/Training & UoB/ShowStudent.class
+out/production/Training & UoB/ShortcutOperate.class
+out/production/Training & UoB/ShortCut_Operations.class
+out/production/Training & UoB/Scanner/Demo03ScannerMax.class
+out/production/Training & UoB/Scanner/Demo02ScannerSum.class
+out/production/Training & UoB/Scanner/Demo01Scanner.class
+out/production/Training & UoB/Sandwich.class
+out/production/Training & UoB/SammysRentalPriceWithMethods.class
+out/production/Training & UoB/RentalDemo.class
+out/production/Training & UoB/Rental.class
+out/production/Training & UoB/RandomGuessMatch.class
+out/production/Training & UoB/Random/Demo04RandomGame.class
+out/production/Training & UoB/Random/Demo03Random.class
+out/production/Training & UoB/Random/Demo02Random.class
+out/production/Training & UoB/Random/Demo01Random.class
+out/production/Training & UoB/Polymorphism/demo05/USB.class
+out/production/Training & UoB/Polymorphism/demo05/Mouse.class
+out/production/Training & UoB/Polymorphism/demo05/Laptop.class
+out/production/Training & UoB/Polymorphism/demo05/Keyboard.class
+out/production/Training & UoB/Polymorphism/demo05/DemoMain.class
+out/production/Training & UoB/Polymorphism/demo04/object_Upward_Downcast.class
+out/production/Training & UoB/Polymorphism/demo04/Dog.class
+out/production/Training & UoB/Polymorphism/demo04/Demo02Instanceof.class
+out/production/Training & UoB/Polymorphism/demo04/Demo01Main.class
+out/production/Training & UoB/Polymorphism/demo04/Cat.class
+out/production/Training & UoB/Polymorphism/demo04/Animal.class
+out/production/Training & UoB/Polymorphism/demo03/benefitOfPolymorphism.class
+out/production/Training & UoB/Polymorphism/demo02/Zi.class
+out/production/Training & UoB/Polymorphism/demo02/Fu.class
+out/production/Training & UoB/Polymorphism/demo02/Demo02MultiMethod.class
+out/production/Training & UoB/Polymorphism/demo02/Demo01MultiField.class
+out/production/Training & UoB/Polymorphism/demo01/Zi.class
+out/production/Training & UoB/Polymorphism/demo01/Fu.class
+out/production/Training & UoB/Polymorphism/demo01/Demo01Multi.class
+out/production/Training & UoB/Paymenttest.class
+out/production/Training & UoB/PaymentInfor.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo05/Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo05/Demo01Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo04/Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo04/Person.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo04/Demo02Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo04/Demo01Person.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Person.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Demo04Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Demo03Person.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Demo02Method.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo03/Demo01VariableDifference.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Phone.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Demo05PhoneReturn.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Demo04PhoneParam.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Demo03PhoneSame.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Demo02PhoneTwo.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo02/Demo01PhoneOne.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo01/Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo01/Demo02Student.class
+out/production/Training & UoB/OOP_Object_Oriented_Programming/demo01/Demo01PrintArray.class
+out/production/Training & UoB/Object/Person.class
+out/production/Training & UoB/Object/Demo03Objects.class
+out/production/Training & UoB/Object/Demo02Equals.class
+out/production/Training & UoB/Object/Demo01ToString.class
+out/production/Training & UoB/Method/demo03/Demo04OverloadPrint.class
+out/production/Training & UoB/Method/demo03/Demo03OverloadJudge.class
+out/production/Training & UoB/Method/demo03/Demo02MethodOverloadSame.class
+out/production/Training & UoB/Method/demo03/Demo01MethodOverload.class
+out/production/Training & UoB/Method/demo02/Demo4MethodNotice.class
+out/production/Training & UoB/Method/demo02/Demo03MethodPrint.class
+out/production/Training & UoB/Method/demo02/Demo02MethodSum.class
+out/production/Training & UoB/Method/demo02/Demo01MethodSame.class
+out/production/Training & UoB/Method/demo01/Demo04MethodReturn.class
+out/production/Training & UoB/Method/demo01/Demo03MethodParam.class
+out/production/Training & UoB/Method/demo01/Demo02MethodDefine.class
+out/production/Training & UoB/Method/demo01/Demo01Method.class
+out/production/Training & UoB/Mark.class
+out/production/Training & UoB/LoopString.class
+out/production/Training & UoB/LoopsString.class
+out/production/Training & UoB/Looping_With_Scanner.class
+out/production/Training & UoB/Looping.class
+out/production/Training & UoB/loop_2.class
+out/production/Training & UoB/Loop/Demo17loopHourAndMinute.class
+out/production/Training & UoB/Loop/Demo12HundredSum.class
+out/production/Training & UoB/Loop.class
+out/production/Training & UoB/Labs/ValidateCheckDigits.class
+out/production/Training & UoB/Labs/CustomerItemOrder.class
+out/production/Training & UoB/Labs/CreateItemFile.class
+out/production/Training & UoB/Labs/CreateCustomerFile.class
+out/production/Training & UoB/JAVA9_C7_1.class
+out/production/Training & UoB/Interface_As/demo02/SkillImpl.class
+out/production/Training & UoB/Interface_As/demo02/Skill.class
+out/production/Training & UoB/Interface_As/demo02/Hero.class
+out/production/Training & UoB/Interface_As/demo02/DemoInterface.class
+out/production/Training & UoB/Interface_As/demo02/DemoGame.class
+out/production/Training & UoB/Interface_As/demo02/DemoGame$2.class
+out/production/Training & UoB/Interface_As/demo02/DemoGame$1.class
+out/production/Training & UoB/Interface_As/demo01/Weapon.class
+out/production/Training & UoB/Interface_As/demo01/Hero.class
+out/production/Training & UoB/Interface_As/demo01/DemoMain.class
+out/production/Training & UoB/Interface/demo03/MyInterfaceImpl.class
+out/production/Training & UoB/Interface/demo03/MyInterfaceB.class
+out/production/Training & UoB/Interface/demo03/MyInterfaceA.class
+out/production/Training & UoB/Interface/demo03/MyInterface.class
+out/production/Training & UoB/Interface/demo03/Demo01Relations.class
+out/production/Training & UoB/Interface/demo02/Zi.class
+out/production/Training & UoB/Interface/demo02/MyInterfaceImpl.class
+out/production/Training & UoB/Interface/demo02/MyInterfaceB.class
+out/production/Training & UoB/Interface/demo02/MyInterfaceAbstract.class
+out/production/Training & UoB/Interface/demo02/MyInterfaceA.class
+out/production/Training & UoB/Interface/demo02/MyInterface.class
+out/production/Training & UoB/Interface/demo02/Fu.class
+out/production/Training & UoB/Interface/demo02/Demo01Interface.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceStaticImpl.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceStatic.class
+out/production/Training & UoB/Interface/demo01/MyInterfacePrivateB.class
+out/production/Training & UoB/Interface/demo01/MyInterfacePrivateAImpl.class
+out/production/Training & UoB/Interface/demo01/MyInterfacePrivateA.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceDefaultB.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceDefaultA.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceDefault.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceConst.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceAbstractImpl.class
+out/production/Training & UoB/Interface/demo01/MyInterfaceAbstract.class
+out/production/Training & UoB/Interface/demo01/Demo05Interface.class
+out/production/Training & UoB/Interface/demo01/Demo04Interface.class
+out/production/Training & UoB/Interface/demo01/Demo03Interface.class
+out/production/Training & UoB/Interface/demo01/Demo02Interface.class
+out/production/Training & UoB/Interface/demo01/Demo01Interface.class
+out/production/Training & UoB/InnerClass/demo03/MyInterfaceImpl.class
+out/production/Training & UoB/InnerClass/demo03/MyInterface.class
+out/production/Training & UoB/InnerClass/demo03/DemoMain.class
+out/production/Training & UoB/InnerClass/demo03/DemoMain$3.class
+out/production/Training & UoB/InnerClass/demo03/DemoMain$2.class
+out/production/Training & UoB/InnerClass/demo03/DemoMain$1.class
+out/production/Training & UoB/InnerClass/demo02/Outer.class
+out/production/Training & UoB/InnerClass/demo02/Outer$1Inner.class
+out/production/Training & UoB/InnerClass/demo02/MyOuter.class
+out/production/Training & UoB/InnerClass/demo02/MyOuter$1MyInner.class
+out/production/Training & UoB/InnerClass/demo02/DemoMain.class
+out/production/Training & UoB/InnerClass/demo01/Outer.class
+out/production/Training & UoB/InnerClass/demo01/Outer$Inner.class
+out/production/Training & UoB/InnerClass/demo01/Demo02InnerClass.class
+out/production/Training & UoB/InnerClass/demo01/Demo01InnerClass.class
+out/production/Training & UoB/InnerClass/demo01/Body.class
+out/production/Training & UoB/InnerClass/demo01/Body$Heart.class
+out/production/Training & UoB/Inherit/demo10/Zi.class
+out/production/Training & UoB/Inherit/demo10/Fu.class
+out/production/Training & UoB/Inherit/demo10/Demo.class
+out/production/Training & UoB/Inherit/demo09/Zi.class
+out/production/Training & UoB/Inherit/demo09/Fu.class
+out/production/Training & UoB/Inherit/demo08/Zi.class
+out/production/Training & UoB/Inherit/demo08/Fu.class
+out/production/Training & UoB/Inherit/demo07/Zi.class
+out/production/Training & UoB/Inherit/demo07/Fu.class
+out/production/Training & UoB/Inherit/demo07/Demo01Constructor.class
+out/production/Training & UoB/Inherit/demo06/Phone.class
+out/production/Training & UoB/Inherit/demo06/NewPhone.class
+out/production/Training & UoB/Inherit/demo06/Demo01Phone.class
+out/production/Training & UoB/Inherit/demo05/Zi.class
+out/production/Training & UoB/Inherit/demo05/Fu.class
+out/production/Training & UoB/Inherit/demo05/Demo01Override.class
+out/production/Training & UoB/Inherit/demo04/Zi.class
+out/production/Training & UoB/Inherit/demo04/Fu.class
+out/production/Training & UoB/Inherit/demo04/Demo01ExtendsMethod.class
+out/production/Training & UoB/Inherit/demo03/Zi.class
+out/production/Training & UoB/Inherit/demo03/Fu.class
+out/production/Training & UoB/Inherit/demo03/Demo01ExtendsField.class
+out/production/Training & UoB/Inherit/demo02/Zi.class
+out/production/Training & UoB/Inherit/demo02/Fu.class
+out/production/Training & UoB/Inherit/demo02/Demo01ExtendsField.class
+out/production/Training & UoB/Inherit/demo01/Teacher.class
+out/production/Training & UoB/Inherit/demo01/Employee.class
+out/production/Training & UoB/Inherit/demo01/Demo01Extends.class
+out/production/Training & UoB/Inherit/demo01/Assistant.class
+out/production/Training & UoB/HelloWorld.class
+out/production/Training & UoB/FormLetterWriter.class
+out/production/Training & UoB/ForLoop.class
+out/production/Training & UoB/FixDebugNine4.class
+out/production/Training & UoB/FixDebugNine4$Planet.class
+out/production/Training & UoB/FitnessTracker2.class
+out/production/Training & UoB/FitnessTracker.class
+out/production/Training & UoB/Final/demo02/sub/Stranger.class
+out/production/Training & UoB/Final/demo02/sub/MySon.class
+out/production/Training & UoB/Final/demo02/MyClass.class
+out/production/Training & UoB/Final/demo02/MyAnother.class
+out/production/Training & UoB/Final/demo02/Demo01Main.class
+out/production/Training & UoB/Final/demo01/Zi.class
+out/production/Training & UoB/Final/demo01/Student.class
+out/production/Training & UoB/Final/demo01/Person.class
+out/production/Training & UoB/Final/demo01/MySubClass.class
+out/production/Training & UoB/Final/demo01/MyClass.class
+out/production/Training & UoB/Final/demo01/Fu.class
+out/production/Training & UoB/Final/demo01/Demo01Final.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$6.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$5.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$4.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$3.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$2.class
+out/production/Training & UoB/EG_faHongBao/RedPacketFrame$1.class
+out/production/Training & UoB/EG_faHongBao/RandomMode.class
+out/production/Training & UoB/EG_faHongBao/OpenMode.class
+out/production/Training & UoB/EG_faHongBao/NormalMode.class
+out/production/Training & UoB/EG_faHongBao/MyRed.class
+out/production/Training & UoB/EG_faHongBao/Bootstrap.class
+out/production/Training & UoB/DisplaySelectedCustomersByName.class
+out/production/Training & UoB/DisplaySelectedCustomer.class
+out/production/Training & UoB/DisplaySavedCustomerList.class
+out/production/Training & UoB/DebugVacation.class
+out/production/Training & UoB/DebugTwelve2.class
+out/production/Training & UoB/DebugTwelve1.class
+out/production/Training & UoB/DebugTen4.class
+out/production/Training & UoB/DebugTen3.class
+out/production/Training & UoB/DebugTen2.class
+out/production/Training & UoB/DebugTen1.class
+out/production/Training & UoB/DebugRowboat.class
+out/production/Training & UoB/DebugPlay.class
+out/production/Training & UoB/DebugPhoneBook.class
+out/production/Training & UoB/DebugOceanLiner.class
+out/production/Training & UoB/DebugNine3.class
+out/production/Training & UoB/DebugNine1.class
+out/production/Training & UoB/DebugMusical.class
+out/production/Training & UoB/DebugFour4.class
+out/production/Training & UoB/DebugFour3.class
+out/production/Training & UoB/DebugFour2.class
+out/production/Training & UoB/DebugFour1.class
+out/production/Training & UoB/DebugExtendedVacation.class
+out/production/Training & UoB/DebugEmployeeIDException.class
+out/production/Training & UoB/DebugEleven4.class
+out/production/Training & UoB/DebugEleven3.class
+out/production/Training & UoB/DebugEleven2.class
+out/production/Training & UoB/DebugEleven1.class
+out/production/Training & UoB/DebugEight4.class
+out/production/Training & UoB/DebugEight3.class
+out/production/Training & UoB/DebugEight2.class
+out/production/Training & UoB/DebugCustomerMakingPurchase.class
+out/production/Training & UoB/DebugBox.class
+out/production/Training & UoB/Debug7_3.class
+out/production/Training & UoB/Debug7_1.class
+out/production/Training & UoB/Debug6_4.class
+out/production/Training & UoB/Debug6_3.class
+out/production/Training & UoB/Debug6_2.class
+out/production/Training & UoB/Debug6_1.class
+out/production/Training & UoB/Debug5_4.class
+out/production/Training & UoB/Debug5_3.class
+out/production/Training & UoB/Debug5_2.class
+out/production/Training & UoB/Debug5_1.class
+out/production/Training & UoB/Debug3_4.class
+out/production/Training & UoB/Debug3_3.class
+out/production/Training & UoB/Debug3_2.class
+out/production/Training & UoB/Debug3_1.class
+out/production/Training & UoB/Debug2_4.class
+out/production/Training & UoB/Debug2_3.class
+out/production/Training & UoB/Debug2_2.class
+out/production/Training & UoB/Debug2_1.class
+out/production/Training & UoB/Debug1_4.class
+out/production/Training & UoB/Debug1_3.class
+out/production/Training & UoB/Debug1_2.class
+out/production/Training & UoB/Debug1_1.class
+out/production/Training & UoB/Debug/DebugThirteen2.class
+out/production/Training & UoB/Debug/DebugThirteen1.class
+out/production/Training & UoB/Debug/DebugData2.txt
+out/production/Training & UoB/Debug/DebugData1.txt
+out/production/Training & UoB/DateClass/Demo02Date.class
+out/production/Training & UoB/DateClass/Demo01Date.class
+out/production/Training & UoB/DataChapter2.class
+out/production/Training & UoB/Copycounter_test.class
+out/production/Training & UoB/Copycounter.class
+out/production/Training & UoB/com/bham/pij/assignments/rps/RockPaperScissors.class
+out/production/Training & UoB/com/bham/pij/assignments/rps/Hangman.class
+out/production/Training & UoB/com/bham/pij/assignments/rps/FalloutTerminal.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/TestPontoon.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/test.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Pontoon.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Player.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Deck.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/CardGame.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Card.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Card$Value.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Card$Suit.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/Card$1.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/BinaryTree.class
+out/production/Training & UoB/com/bham/pij/assignments/pontoon/2133456.zip
+out/production/Training & UoB/com/bham/pij/assignments/candidates/to-interview.txt
+out/production/Training & UoB/com/bham/pij/assignments/candidates/to-interview-table-format.csv
+out/production/Training & UoB/com/bham/pij/assignments/candidates/to-interview-experience.txt
+out/production/Training & UoB/com/bham/pij/assignments/candidates/tableBuilder.class
+out/production/Training & UoB/com/bham/pij/assignments/candidates/screenshot-candidates.docx
+out/production/Training & UoB/com/bham/pij/assignments/candidates/Platform.class
+out/production/Training & UoB/com/bham/pij/assignments/candidates/CleaningUp.class
+out/production/Training & UoB/com/bham/pij/assignments/candidates/cleancv.txt
+out/production/Training & UoB/com/bham/pij/assignments/candidates/CandidatesToInterview.class
+out/production/Training & UoB/com/bham/pij/assignments/calculator/TestCalculator.class
+out/production/Training & UoB/com/bham/pij/assignments/calculator/Test_C.class
+out/production/Training & UoB/com/bham/pij/assignments/calculator/Calculator_2.class
+out/production/Training & UoB/com/bham/pij/assignments/calculator/Calculator.class
+out/production/Training & UoB/com/bham/pij/assignments/calculator/2133456.zip
+out/production/Training & UoB/CarlysMotto2.class
+out/production/Training & UoB/CarlysMotto.class
+out/production/Training & UoB/C2_IntDemo.class
+out/production/Training & UoB/C2_DataDemo.class
+out/production/Training & UoB/C2_5_2.class
+out/production/Training & UoB/C2_5.class
+out/production/Training & UoB/C1/C17.class
+out/production/Training & UoB/C1/C16.class
+out/production/Training & UoB/C1/C15.class
+out/production/Training & UoB/C1/C13.class
+out/production/Training & UoB/C1/C12.class
+out/production/Training & UoB/C1/C118.class
+out/production/Training & UoB/C1/C116.class
+out/production/Training & UoB/C1/C115.class
+out/production/Training & UoB/C1/C114.class
+out/production/Training & UoB/C1/C113.class
+out/production/Training & UoB/C1/C112.class
+out/production/Training & UoB/C1/C11.class
+out/production/Training & UoB/Billing.class
+out/production/Training & UoB/AveragMarks.class
+out/production/Training & UoB/Arrays/Demo04MathPractise.class
+out/production/Training & UoB/Arrays/Demo03Math.class
+out/production/Training & UoB/Arrays/Demo02ArraysPractise.class
+out/production/Training & UoB/Arrays/Demo01Arrays.class
+out/production/Training & UoB/ArrayList/demo02/Student.class
+out/production/Training & UoB/ArrayList/demo02/Demo04ArrayListReturn.class
+out/production/Training & UoB/ArrayList/demo02/Demo03ArrayListPrint.class
+out/production/Training & UoB/ArrayList/demo02/Demo02ArrayListStudent.class
+out/production/Training & UoB/ArrayList/demo02/Demo01ArrayListRandom.class
+out/production/Training & UoB/ArrayList/demo01/Person.class
+out/production/Training & UoB/ArrayList/demo01/Demo05ArrayListBasic.class
+out/production/Training & UoB/ArrayList/demo01/Demo04ArrayListEach.class
+out/production/Training & UoB/ArrayList/demo01/Demo03ArrayListMethod.class
+out/production/Training & UoB/ArrayList/demo01/Demo02ArrayList.class
+out/production/Training & UoB/ArrayList/demo01/Demo01ArrayList.class
+out/production/Training & UoB/Array/demo04/Demo02ArrayReturn.class
+out/production/Training & UoB/Array/demo04/Demo01ArrayParam.class
+out/production/Training & UoB/Array/demo03/Demo07ArrayReverse.class
+out/production/Training & UoB/Array/demo03/Demo06ArrayMin.class
+out/production/Training & UoB/Array/demo03/Demo05ArrayMax.class
+out/production/Training & UoB/Array/demo03/Demo04Array.class
+out/production/Training & UoB/Array/demo03/Demo03ArrayLength.class
+out/production/Training & UoB/Array/demo03/Demo02ArrayNull.class
+out/production/Training & UoB/Array/demo03/Demo01ArrayIndex.class
+out/production/Training & UoB/Array/demo02/Demo03ArraySame.class
+out/production/Training & UoB/Array/demo02/Demo02ArrayTwo.class
+out/production/Training & UoB/Array/demo02/Demo01ArrayOne.class
+out/production/Training & UoB/Array/demo01/Demo05ArrayUse.class
+out/production/Training & UoB/Array/demo01/Demo04ArrayUse.class
+out/production/Training & UoB/Array/demo01/Demo03Array.class
+out/production/Training & UoB/Array/demo01/Demo02Array.class
+out/production/Training & UoB/Array/demo01/Demo01Array.class
+out/production/Training & UoB/Anonymous/Person.class
+out/production/Training & UoB/Anonymous/Demo02Anonymous.class
+out/production/Training & UoB/Anonymous/Demo01Anonymous.class
+out/production/Training & UoB/AllVriables.class
+out/production/Training & UoB/Abstract/demo04/User.class
+out/production/Training & UoB/Abstract/demo04/Member.class
+out/production/Training & UoB/Abstract/demo04/Manager.class
+out/production/Training & UoB/Abstract/demo04/MainRedPacket.class
+out/production/Training & UoB/Abstract/demo03/DogGolden.class
+out/production/Training & UoB/Abstract/demo03/Dog2Ha.class
+out/production/Training & UoB/Abstract/demo03/Dog.class
+out/production/Training & UoB/Abstract/demo03/DemoMain.class
+out/production/Training & UoB/Abstract/demo03/Animal.class
+out/production/Training & UoB/Abstract/demo02/Zi.class
+out/production/Training & UoB/Abstract/demo02/MyAbstract.class
+out/production/Training & UoB/Abstract/demo02/Fu.class
+out/production/Training & UoB/Abstract/demo01/DemoMain.class
+out/production/Training & UoB/Abstract/demo01/Cat.class
+out/production/Training & UoB/Abstract/demo01/Animal.class
+out/production/Training & UoB/_1.class
+out/production/Java_chengXuYuYanSheJi_liangYong/Tools/test.class
+out/production/Java_chengXuYuYanSheJi_liangYong/Tools/matrixShow.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_9.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_8.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_7.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_6.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_5.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_4.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_3.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_21.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_20.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_2.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_19.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_18.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_17.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_16.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_15.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_14.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_13.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_12.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_11.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_10.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_5/C_5_1.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_9.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_8.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_7.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_6.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_5.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_4.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_3.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_26.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_25.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_24.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_23.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_22.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_21.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_20.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_2.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_19.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_18.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_17.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_16.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_15.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_14.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_13.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_12.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_11.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_10.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_4/C_4_1.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_9.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_8.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_7.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_6.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_5.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_5$day.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_4.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_34.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_33.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_32.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_31.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_30.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_3.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_29.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_28.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_27.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_26.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_25.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_24.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_24$Suits.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_24$Cards.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_23.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_22.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_21.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_21$Months.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_20.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_2.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_19.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_18.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_17.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_17$GameContents.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_16.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_15.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_14.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_13.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_12.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_11.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_11$months.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_10.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_3/C_3_1.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_9.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_8.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_7.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_6.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_5.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_4.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_3.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_23.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_22.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_21.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_20.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_2.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_19.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_18.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_17.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_16.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_15.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_14.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_13.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_12.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_11.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_10.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_2/C_2_1.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_9.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_8.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_7.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_6.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_5.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_4.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_3.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_2.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_13.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_12.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_11.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_10.class
+out/production/Java_chengXuYuYanSheJi_liangYong/C_1/C_1_1.class
+LICENSE
+.idea/vcs.xml
+.idea/uiDesigner.xml
+.idea/Training_and_UoB.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/libraries/xchart_3_8_0.xml
+.idea/libraries/weka.xml
+.idea/libraries/postgresql_42_2_19.xml
+.idea/libraries/javafx_swt.xml
+.idea/encodings.xml
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6/storage_v2/_src_/database/postgres.edMnLQ/schema/assignment_1.PxNloA.meta
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6/storage_v2/_src_/database/postgres.edMnLQ.meta
+.idea/dataSources/fbe33d4f-07ca-40c1-95e5-b10bace2e1d6.xml
+.idea/dataSources.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codestream.xml
+.idea/aws.xml
+.idea/.name
+.gradle/vcs-1/gc.properties
+.gradle/configuration-cache/gc.properties
+.gradle/checksums/checksums.lock
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/6.7/gc.properties
+.gradle/6.7/fileHashes/fileHashes.lock
+.gradle/6.7/fileChanges/last-build.bin
+.gitattributes
+*.iml
+UoB/.idea/aws.xml
+UoB/.idea/codeStyles/codeStyleConfig.xml
+UoB/.idea/codeStyles/Project.xml
+UoB/.idea/libraries/2133456.xml
+UoB/.idea/libraries/21334561.xml
+UoB/.idea/libraries/213345612.xml
+UoB/.idea/libraries/21334562.xml
+UoB/.idea/misc.xml
+UoB/.idea/modules.xml
+UoB/.metadata/.lock
+UoB/.metadata/.log
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/10/c009a342e415001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/10/d05f00290c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/13/006c2808c416001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/13/80fba160e315001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/16/70509ae0c516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/17/10a781430c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/18/6028cdcfcd15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/18/60b95fd50c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/1d/908524219216001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/1e/90b267f9c715001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/1f/e056af52ec15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2/007be8dacd15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2/60e960ccd615001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/25/8007d906e615001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/28/000aa9eb1112001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/29/4054a14ee215001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2a/4077ef0be115001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2c/c05d95e4c316001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2c/e0886311d212001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2c/e09fe5341112001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/2f/d0f3f7560c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/3/00e1e14c9216001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/32/209985e3cb15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/33/2086d9e5c915001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/35/a05e4b2af715001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/39/40fd8044ff15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/3f/20f609b5cd15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/3f/a06e69d6e515001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/4/90c686925417001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/41/10237e952f15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/41/107650500c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/41/605526d1d012001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/44/60e54d15e615001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/46/c04178d99416001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/47/6033d55c5417001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/48/e0d391de9116001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/4c/2079a09fc316001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/4e/d054b5e55417001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/51/a04340c60c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/53/6012028fcf12001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/53/60d30f945b17001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/58/403232d0be16001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/59/a004b20bd715001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/59/c096c3f80b12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/5b/c05467d1eb15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/5d/7049aa123215001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/6/f0e5ee069516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/61/105980f20b12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/63/f08cf7970d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/65/700f04c2c016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/65/70691c9ad615001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/66/506ca6e00d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/69/403a8823d012001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/6a/20f7301be515001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/6a/d0cc8c3ac016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/6d/b0dcf74dc516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/6f/d0eeb663d112001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7/00a9e082c216001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7/90bf2ab2c016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7/d0cae769e315001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/71/e017ab99c416001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/73/605e972b0c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/74/c06ee9e3f115001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/75/30fe93e4c316001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/76/b000edc00b12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/77/c0773346c915001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/78/008b08070c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7a/70ea1abcd515001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7a/a05a9763cb15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7a/e073bf871012001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7a/f0bf82750d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7b/00e702fed112001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7d/a019ed331212001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7e/0067d8482f15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/7e/d04cfcc52d15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/80/409be35bd112001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/83/109e0dfcef15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/83/403c54e00016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/85/d02081e0cd15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/86/8010dd0ec116001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/88/3058669fc415001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/8c/704515f9ca15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/8c/e009975dcc12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/8d/00efca42e215001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/8d/405e3b803015001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/8d/f06939ace515001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9/7052cb57c715001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/92/90a8fa07cf12001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/94/904307fe9116001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/94/d0f876a1fd15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/97/50a049eff615001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9a/000d98e72f15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9a/a0209b27d415001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9d/40dab2c92f15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9e/2021c318d412001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9e/b0240691cd15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9f/2040b0470d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9f/3058260fd412001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/9f/f0225314ec15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a/4088defdc516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a0/b0b6d1eb3d15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a3/d073b620c915001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a4/c069fc0f0c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a5/7078b2efef15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a6/105a6b690d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a6/30a0d8e10c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a7/2061a4f9cc12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/a9/c07ad9cad012001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/ab/703a76643215001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/af/a09f1eebc715001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/b2/6001315dc715001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/b2/c0dc29219216001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/b6/e05d48815317001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/b8/303ad721d615001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/b8/80918d2bc915001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/bb/3032f6ec0b12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c2/106bbf5e0d12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c3/f02db9ffc016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c4/80f97232d212001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c4/d0dcbab94515001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c4/f0e2ead7ce12001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c6/2053ccfe5317001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/c8/a0d9006dcd12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/ca/10bff0f2e515001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/cb/60ac318be315001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/cd/203cbffc1012001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/cf/209b2446ff15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/cf/b0df9d7de315001b187683c9c69e4d0f
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/d2/1086a50fc016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/e0/00d34002ec15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/e4/20f71542d212001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/e5/70e28b3ac016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/e6/90c2a1cd0c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/e7/a0c21a74ca15001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/ec/00b6aa90c416001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/ee/c057281e0c12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f1/f0df9edf4515001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f3/408a3c0f0e12001b1083c3175eee6211
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f7/1041384ec516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f8/70f3ecf4c516001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f8/a081c306c016001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f9/5077f9323215001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/f9/90d82b219216001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/fa/200e02ce4515001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/fc/a0361b79d612001b16df8670ca28bb75
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/fd/60d9c149ef15001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.history/fe/7031ecc3f115001b1bc8f54ae8457314
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/.indexes/e4/81/f2/91/46/f5/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/.markers
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment1/org.eclipse.jdt.core/state.dat
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment_2/.indexes/af/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment_2/.indexes/e4/81/f2/91/46/fe/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment_2/.indexes/e4/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment_2/.markers
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Assignment_2/org.eclipse.jdt.core/state.dat
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Java2020/.indexes/e4/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Java2020/.markers
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Java2020/org.eclipse.jdt.core/state.dat
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Week_2/.indexes/af/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.projects/Week_3/.indexes/af/history.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+UoB/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+UoB/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+UoB/.metadata/.plugins/org.eclipse.core.resources/.root/18.tree
+UoB/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.buildship.core.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.help.base.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+UoB/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/AllVriables.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/AlVriables.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/AveragMarks.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/C2_5.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/C2_5_2.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/C2_Decarling_and_Using_Variables_Constants.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Calculator.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Copycounter_test.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/FalloutTerminal.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/ForLoop.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Hangman (1).launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Hangman.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Hangman_test.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/HelloWorld.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/JAVA9_C7_1.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Loop.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/loop_2.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Looping.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Looping_With_Scanner.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/LoopsString.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/LoopString.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Mark.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Paymenttest.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/RockPaperScissors (1).launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/RockPaperScissors (2).launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/RockPaperScissors (3).launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/RockPaperScissors.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/ShortCut_Operations.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/ShortcutOperate.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/test.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/Triangle.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/WorkingIf.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/WorkingIfElse.launch
+UoB/.metadata/.plugins/org.eclipse.debug.core/.launches/WorkingSwitch.launch
+UoB/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+UoB/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+UoB/.metadata/.plugins/org.eclipse.jdt.core/132620216.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/2228137764.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/4090077106.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/4122684861.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/605430789.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/725237502.index
+UoB/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+UoB/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+UoB/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+UoB/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+UoB/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+UoB/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+UoB/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+UoB/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+UoB/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+UoB/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+UoB/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/42/refactorings.history
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/42/refactorings.index
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/43/refactorings.history
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/43/refactorings.index
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/44/refactorings.history
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2020/10/44/refactorings.index
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Assignment1/2020/10/43/refactorings.history
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Assignment1/2020/10/43/refactorings.index
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Daily/2020/10/42/refactorings.history
+UoB/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Daily/2020/10/42/refactorings.index
+UoB/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_0.cfs
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/write.lock
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_0.cfs
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_2
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/87837ca7d30af22826a9f1311a18d3f4/_0.cfs
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/87837ca7d30af22826a9f1311a18d3f4/segments.gen
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/87837ca7d30af22826a9f1311a18d3f4/segments_2
+UoB/.metadata/.plugins/org.eclipse.m2e.core/nexus/87837ca7d30af22826a9f1311a18d3f4/write.lock
+UoB/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+UoB/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+UoB/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.0.20200318-1040.xml
+UoB/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+UoB/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.ui.intro/introstate
+UoB/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+UoB/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+UoB/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+UoB/.metadata/version.ini
+Training/Zhe_da_PAT/.idea/aws.xml
+Training/Zhe_da_PAT/.idea/codeStyles/codeStyleConfig.xml
+Training/Zhe_da_PAT/.idea/codeStyles/Project.xml
+Training/Zhe_da_PAT/.idea/misc.xml
+Training/Zhe_da_PAT/.idea/modules.xml
+Training/Zhe_da_PAT/.idea/workspace.xml
+UoB/Semester_1/Assignment_2/out/production/Assignment_2/com/bham/pij/assignments/calculator/Calculator.class
+*.md
+*.pdf
+*.xml
+*.xml
+*.class
+*.fxml
+*.prefs
+*.meta
+*.txt
+*.html
+*.bat
+*.sh
+*.rar
+*.py
+*.docx
+*.zip
