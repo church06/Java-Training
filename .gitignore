@@ -1375,3 +1375,5 @@ UoB/Semester_1/Assignment_2/out/production/Assignment_2/com/bham/pij/assignments
 *.py
 *.docx
 *.zip
+/.idea/
+/out/
