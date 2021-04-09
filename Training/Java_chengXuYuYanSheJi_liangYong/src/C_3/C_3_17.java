@@ -39,7 +39,7 @@ public class C_3_17 {
     }
 
     enum GameContents {
-        ROCK, PAPPER, SCISSORS
+        ROCK, PAPER, SCISSORS
     }
 
     private GameContents GameImpl(int input) {
@@ -49,7 +49,7 @@ public class C_3_17 {
                 contents = GameContents.ROCK;
                 break;
             case 1:
-                contents = GameContents.PAPPER;
+                contents = GameContents.PAPER;
                 break;
             case 2:
                 contents = GameContents.SCISSORS;
