@@ -43,7 +43,7 @@ public class ClientHandler implements Runnable {
                 
                     System.out.printf( " Sent from the client: %s\n", new MServer().clientid);
                     
-                    out.println(ClientMsg + " " + new Date().toString());
+                    out.println(ClientMsg + " " + new Date());
                 }
             }catch (IOException e){
             e.printStackTrace();
