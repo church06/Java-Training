@@ -10,7 +10,7 @@ public class C_5_37 {
 
     public static String to_Base(int num, int base) {
 
-        StringBuilder output = new StringBuilder("结果为 ");
+        StringBuilder output = new StringBuilder();
         ArrayList<Integer> list = new ArrayList<>();
 
         while (num >= 1) {
