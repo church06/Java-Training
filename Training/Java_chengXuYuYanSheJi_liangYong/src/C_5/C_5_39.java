@@ -13,7 +13,7 @@ public class C_5_39 {
 
     }
 
-    public static BigDecimal Salary(int salary) {
+    public static BigDecimal Salary(double salary) {
         if (salary <= 5000) {
             BigDecimal interest_1 = new BigDecimal(salary * 0.08).setScale(2, RoundingMode.HALF_EVEN);
             System.out.print("初始工资: "+ salary + " 利润为: " + interest_1 + " 总工资为: ");
