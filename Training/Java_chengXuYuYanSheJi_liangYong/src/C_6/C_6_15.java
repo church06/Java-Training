@@ -21,7 +21,7 @@ public class C_6_15 {
                 list[j] = computeTax(j, i);
             }
 
-            System.out.printf("%-8s %-10s %-14s %-18s %-8s%n", i, list[0], list[1], list[2], list[3]);
+            System.out.printf("%-8s %-14s %-15s %-16s %-8s%n", i, list[0], list[1], list[2], list[3]);
 
         }
     }
