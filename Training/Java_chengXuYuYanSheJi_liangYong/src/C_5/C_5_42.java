@@ -55,7 +55,7 @@ public class C_5_42 {
                     break;
 
                 } else {
-                    System.out.print("总工资为: " + Salary_do_while(salary, data) + "\n\n");
+                    System.out.print("总工资为: " + Salary_do_while(salary, data, true) + "\n\n");
                 }
 
             } catch (NumberFormatException e) {
@@ -67,7 +67,7 @@ public class C_5_42 {
 
 // =============================================================================================
 
-    public static BigDecimal Salary_do_while(double salary, LinkedList<Double> statement) {
+    public static BigDecimal Salary_do_while(double salary, LinkedList<Double> statement, boolean printResult) {
 
         ArrayList<Double> interest = new ArrayList<>();
         ArrayList<Double> levels = new ArrayList<>();
@@ -99,24 +99,37 @@ public class C_5_42 {
             if (interest.size() != 0) {
                 if (j != 0) {
                     total += (levels.get(j) - levels.get(j - 1)) * interest.get(j);
+
                 } else {
                     total += levels.get(j) * interest.get(j);
                 }
-                System.out.println("区间: " + levels.get(j) + " 提成: " + interest.get(j) + " 结算: " + total);
+
+                if (printResult) {
+                    System.out.println("区间: " + levels.get(j) + " 提成: " + interest.get(j) + " 结算: " + total);
+                }
             }
         }
 
         if (salary > levels.get(levels.size() - 1)) {
             total += (salary - levels.get(index)) * infinity_interest;
-            System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + infinity_interest + " ");
+
+            if (printResult) {
+                System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + infinity_interest + " ");
+            }
 
         } else if (interest.size() == 1) {
             total += (salary - levels.get(index)) * interest.get(index);
-            System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + interest.get(index) + " ");
+
+            if (printResult) {
+                System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + interest.get(index) + " ");
+            }
 
         } else {
             total += (salary - levels.get(index)) * interest.get(index + 1);
-            System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + interest.get(index + 1) + " ");
+
+            if (printResult) {
+                System.out.print("剩余: " + (salary - levels.get(index)) + " 提成: " + interest.get(index + 1) + " ");
+            }
         }
 
 
