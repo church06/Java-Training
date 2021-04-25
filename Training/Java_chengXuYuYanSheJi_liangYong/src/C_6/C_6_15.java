@@ -30,35 +30,19 @@ public class C_6_15 {
         switch (status) {
             default:
                 int[] level = {8350, 33950, 52250, 171550, 372950};
-
-                return Double.parseDouble(
-                        BigDecimal.valueOf(taxRate(level, taxableIncome)).
-                                setScale(2, RoundingMode.HALF_EVEN).
-                                toString());
+                return chooser(level, taxableIncome);
 
             case 1:
                 level = new int[]{16700, 67900, 137050, 208050, 372950};
-
-                return Double.parseDouble(
-                        BigDecimal.valueOf(taxRate(level, taxableIncome)).
-                                setScale(2, RoundingMode.HALF_EVEN).
-                                toString());
+                return chooser(level, taxableIncome);
 
             case 2:
                 level = new int[]{8350, 33950, 68525, 104425, 186475};
-
-                return Double.parseDouble(
-                        BigDecimal.valueOf(taxRate(level, taxableIncome)).
-                                setScale(2, RoundingMode.HALF_EVEN).
-                                toString());
+                return chooser(level, taxableIncome);
 
             case 3:
                 level = new int[]{11950, 45500, 117450, 190200, 372950};
-
-                return Double.parseDouble(
-                        BigDecimal.valueOf(taxRate(level, taxableIncome)).
-                                setScale(2, RoundingMode.HALF_EVEN).
-                                toString());
+                return chooser(level, taxableIncome);
         }
     }
 
@@ -92,5 +76,12 @@ public class C_6_15 {
             double remain = income - taxPart;
             return taxPart * rate[counter] + tax_sum(counter - 1, level, remain);
         }
+    }
+
+    public static double chooser(int[] level, double taxableIncome) {
+
+        return Double.parseDouble(BigDecimal.valueOf(taxRate(level, taxableIncome)).
+                        setScale(2, RoundingMode.HALF_EVEN).
+                        toString());
     }
 }
