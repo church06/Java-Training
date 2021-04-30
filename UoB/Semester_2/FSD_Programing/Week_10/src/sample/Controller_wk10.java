@@ -2,13 +2,16 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 
 
 import java.net.URL;
@@ -45,7 +48,9 @@ public class Controller_wk10 implements Initializable {
     @FXML
     private TextField username;
     @FXML
-    private TextField passwd;
+    private PasswordField passwd;
+    @FXML
+    private Button login_btn;
 
     Image icon = new Image("file:G:\\Entrance" +
             "\\Coding_Training\\JavaProgram" +
@@ -62,6 +67,7 @@ public class Controller_wk10 implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
         engine = view.getEngine();
+
 
         TreeItem<String> root = new TreeItem<>("Root", new ImageView(icon));
         root.setExpanded(true);
@@ -127,11 +133,16 @@ public class Controller_wk10 implements Initializable {
         try {
             if (login.isLogin(username.getText(), passwd.getText())) {
                 state.setText("Login Successful.");
+
+                Stage stage = new Stage();
+                FXMLLoader loader = new FXMLLoader();
+                Pane root = loader.load(Objects.requireNonNull(getClass().getResource("\\borderpane\\borderpane.fxml")).openStream());
+
             } else {
                 state.setText("Login Failed. UserName or Password not correct.");
             }
 
-        } catch (Exception e) {
+        } catch (Exception ignored) {
 
         }
     }

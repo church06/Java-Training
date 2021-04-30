@@ -11,7 +11,7 @@ public class SQLConnection {
         Connection con;
         try {
             Class.forName("org.postgresql.Driver");
-            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres");
+            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "SDesolator_0211");
             System.out.println(con);
             return con;
 

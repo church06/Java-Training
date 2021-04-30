@@ -27,11 +27,12 @@ public class Model {
 
     public boolean isLogin(String user, String passwd) throws Exception {
         PreparedStatement stmt;
-        ResultSet rs = null;
+        ResultSet rs;
         try {
             stmt = connection.prepareStatement("select * from userpass where username = ? and password = ?");
             stmt.setString(1, user);
             stmt.setString(2, passwd);
+            rs = stmt.executeQuery();
 
             if (rs.next()) {
                 return true;
