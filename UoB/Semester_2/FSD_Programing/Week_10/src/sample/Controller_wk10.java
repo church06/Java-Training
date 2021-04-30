@@ -128,7 +128,7 @@ public class Controller_wk10 implements Initializable {
             if (login.isLogin(username.getText(), passwd.getText())) {
                 state.setText("Login Successful.");
             } else {
-                state.setText("Login Failed.");
+                state.setText("Login Failed. UserName or Password not correct.");
             }
 
         } catch (Exception e) {
