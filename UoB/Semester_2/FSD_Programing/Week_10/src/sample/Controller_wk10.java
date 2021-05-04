@@ -1,9 +1,12 @@
 package sample;
 
+import borderpane.Controller_bor;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -65,9 +68,7 @@ public class Controller_wk10 implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
         engine = view.getEngine();
-
 
         TreeItem<String> root = new TreeItem<>("Root", new ImageView(icon));
         root.setExpanded(true);
@@ -130,13 +131,24 @@ public class Controller_wk10 implements Initializable {
     }
 
     public void login(ActionEvent event) throws Exception {
+        ((Node) event.getSource()).getScene().getWindow().hide();
+
         try {
             if (login.isLogin(username.getText(), passwd.getText())) {
                 state.setText("Login Successful.");
 
                 Stage stage = new Stage();
                 FXMLLoader loader = new FXMLLoader();
-                Pane root = loader.load(Objects.requireNonNull(getClass().getResource("\\borderpane\\borderpane.fxml")).openStream());
+                Pane root = loader.load(
+                        Objects.requireNonNull(getClass().
+                        getResource("/borderpane/borderpane.fxml")).openStream());
+
+                Controller_bor bor = loader.getController();
+                bor.getUser(username.getText());
+
+                Scene scene = new Scene(root);
+                stage.setScene(scene);
+                stage.show();
 
             } else {
                 state.setText("Login Failed. UserName or Password not correct.");
