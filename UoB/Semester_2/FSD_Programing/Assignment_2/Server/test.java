@@ -96,9 +96,8 @@ public class test {
                 if (jd.getUserID(content) == -1) {
                     jd.addUser(content, "N/A");
 
-                    jm = new JabberMessage("registered");
+                    jm = new JabberMessage("signedin");
                     send.writeObject(jm);
-
                     send.flush();
                 }
                 break;

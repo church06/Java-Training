@@ -36,8 +36,8 @@ public class JabberUI {
     private ListView<String> likes_num;
 
 
-    Image like_icon = new Image("file:/Client/icons/like_red.png");
-    ImageView like =new ImageView(like_icon);
+    final Image like_icon = new Image("file:/Client/icons/like_red.png");
+    ImageView like =new ImageView();
 
     boolean online = false;
 
@@ -62,12 +62,18 @@ public class JabberUI {
 
             System.out.println(timeline);
 
+            ArrayList<ImageView> content = new ArrayList<>();
+            like.setImage(like_icon);
+
             for (ArrayList<String> i : timeline) {
 
                 username_timeline.getItems().add(i.get(0));
-                icon.getItems().add(like);
+                content.add(like);
                 likes_num.getItems().add(i.get(i.size() - 1));
             }
+
+            ObservableList<ImageView> list = FXCollections.observableArrayList(content);
+            icon.setItems(list);
 
         });
     }
@@ -105,14 +111,15 @@ public class JabberUI {
 
             try {
                 if (B1.getText().equals("Sign In")) {
-                    System.out.println(B1.getText());
                     controller.register(T1.getText());
+                    login_detect();
                     Sign_state();
+
                 } else {
                     controller.disconnect();
                     ((Stage) (B1.getScene().getWindow())).close();
                 }
-            } catch (IOException e) {
+            } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
             }
         });
