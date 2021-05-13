@@ -1,6 +1,6 @@
 package sample;
 
-// ���ڿ��Ʒ������¼�
+//
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

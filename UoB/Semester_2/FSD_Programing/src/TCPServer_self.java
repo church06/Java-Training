@@ -24,6 +24,7 @@ public class TCPServer_self {
 
             client = clientStream.readLine();
             System.out.println(client);
+
             for (int i = client.length() - 1; i >= 0; i--) {
                 respond = respond + client.charAt(i);
             }

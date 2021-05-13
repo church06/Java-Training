@@ -34,11 +34,7 @@ public class Model {
             stmt.setString(2, passwd);
             rs = stmt.executeQuery();
 
-            if (rs.next()) {
-                return true;
-            } else {
-                return false;
-            }
+            return rs.next();
 
         } catch (Exception e) {
             return false;

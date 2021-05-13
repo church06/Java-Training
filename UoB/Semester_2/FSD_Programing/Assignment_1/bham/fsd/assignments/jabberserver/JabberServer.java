@@ -379,9 +379,9 @@ public class JabberServer {
 
         dropTables();
         // jabberdef
-        ArrayList<String> defs = loadSQL("G:\\Entrance\\Coding_Training\\JavaProgram\\SQL_Data\\Assessment_1\\jabberdef");
+        ArrayList<String> defs = loadSQL("G:\\Entrance\\Coding_Training\\JavaProgram\\SQL_Data\\Assignment_1\\jabberdef");
         // jabberdata
-        ArrayList<String> data = loadSQL("G:\\Entrance\\Coding_Training\\JavaProgram\\SQL_Data\\Assessment_1\\jabberdata");
+        ArrayList<String> data = loadSQL("G:\\Entrance\\Coding_Training\\JavaProgram\\SQL_Data\\Assignment_1\\jabberdata");
 
         executeSQLUpdates(defs);
         executeSQLUpdates(data);

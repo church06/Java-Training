@@ -12,7 +12,7 @@ public class TCPClient_self {
         String respond;
         System.out.println("Running...");
 
-        Socket socket = new Socket("192.168.86.102", 8888);
+        Socket socket = new Socket("192.168.86.101", 8888);
 
         DataOutputStream output= new DataOutputStream(socket.getOutputStream());
         BufferedReader server = new BufferedReader(new InputStreamReader(socket.getInputStream()));

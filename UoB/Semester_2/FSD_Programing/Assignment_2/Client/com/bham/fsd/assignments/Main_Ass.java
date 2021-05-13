@@ -1,4 +1,4 @@
-package sample;
+package com.bham.fsd.assignments;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,14 +8,16 @@ import javafx.stage.Stage;
 
 import java.util.Objects;
 
-public class Main extends Application {
+public class Main_Ass extends Application {
+
 
     @Override
     public void start(Stage stage) throws Exception {
 
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("sample.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/bham/fsd/assignments/SignIn.fxml")));
 
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root);
+        stage.setTitle("Assignment_2 Client");
         stage.setScene(scene);
         stage.show();
     }
@@ -24,4 +26,5 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
 }
