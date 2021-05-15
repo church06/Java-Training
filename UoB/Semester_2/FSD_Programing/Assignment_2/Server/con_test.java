@@ -4,7 +4,6 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import java.awt.*;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -20,5 +19,6 @@ public class con_test implements Initializable {
         ImageView view = new ImageView(image);
 
         btn.setGraphic(view);
+
     }
 }

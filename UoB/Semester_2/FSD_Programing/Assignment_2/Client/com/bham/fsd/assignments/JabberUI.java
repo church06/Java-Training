@@ -30,10 +30,6 @@ public class JabberUI {
     @FXML
     private Button B2;
     @FXML
-    private AnchorPane P1;
-    @FXML
-    private AnchorPane P2;
-    @FXML
     private ListView<String> username_timeline;
     @FXML
     private ListView<ImageView> icon;
@@ -42,7 +38,7 @@ public class JabberUI {
 
 
     final Image like_icon = new Image("file:/Client/icons/like_red.png");
-    ImageView like = new ImageView();
+    ImageView like = new ImageView(like_icon);
 
     boolean online = false;
 
@@ -68,70 +64,58 @@ public class JabberUI {
 
             System.out.println(timeline);
 
-            ArrayList<ImageView> content = new ArrayList<>();
-            like.setImage(like_icon);
-
             for (ArrayList<String> i : timeline) {
 
                 username_timeline.getItems().add(i.get(0));
-                content.add(like);
+
                 likes_num.getItems().add(i.get(i.size() - 1));
             }
 
-            ObservableList<ImageView> list = FXCollections.observableArrayList(content);
-            icon.setItems(list);
         }
     }
 
     public void Login_func() {
 
+        try {
 
-        Platform.runLater(() -> {
+            if (B1.getText().equals("Sign Out")) {
 
-            try {
-
-                if (B1.getText().equals("Sign Out")) {
-
-                    controller.signOut();
-                    ((Stage) (B1.getScene().getWindow())).close();
-                }
-
-                if (B1.getText().equals("Sign In")) {
-                    controller.login(T1.getText());
-
-                    login_detect();
-                    Sign_state();
-
-                    ArrayList<ArrayList<String>> timeline = controller.data_respond();
-                    System.out.println("array timeline: " + timeline);
-                    showTimeLine(timeline);
-
-                }
-
-            } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
+                controller.signOut();
+                ((Stage) (B1.getScene().getWindow())).close();
             }
-        });
+
+            if (B1.getText().equals("Sign In")) {
+                controller.login(T1.getText());
+
+                login_detect();
+                Sign_state();
+
+                Thread.sleep(50);
+                ArrayList<ArrayList<String>> timeline = controller.data_respond();
+                System.out.println("array timeline: " + timeline + "\n");
+                showTimeLine(timeline);
+
+            }
+
+        } catch (IOException | ClassNotFoundException | InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    public void Register_func(ActionEvent event) {
+    public void Register_func() {
 
-        Platform.runLater(() -> {
+        try {
 
-            try {
+            if (B1.getText().equals("Sign In")) {
+                controller.register(T1.getText());
+                login_detect();
+                Sign_state();
 
-                if (B1.getText().equals("Sign In")) {
-                    controller.register(T1.getText());
-                    login_detect();
-                    Sign_state();
-
-                }
-            } catch (IOException | ClassNotFoundException e) {
-                e.printStackTrace();
             }
-        });
-
+        } catch (IOException | ClassNotFoundException | InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -148,10 +132,9 @@ public class JabberUI {
         }
     }
 
-    public void login_detect() throws IOException, ClassNotFoundException {
+    public void login_detect() throws IOException, ClassNotFoundException, InterruptedException {
 
         String respond = controller.server_respond();
-
 
         if (respond.equals("unknown-user")) {
             E1.setText("Invalid username.");
@@ -159,6 +142,8 @@ public class JabberUI {
         } else {
             online = true;
             controller.timeLine();
+            controller.server_respond();
+
             E1.setTextFill(Color.GREEN);
             E1.setText("Login successful.");
         }

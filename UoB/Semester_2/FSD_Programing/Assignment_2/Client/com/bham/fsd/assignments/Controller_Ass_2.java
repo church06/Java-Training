@@ -35,21 +35,20 @@ public class Controller_Ass_2 {
         client.register(username);
     }
 
-    public String server_respond() throws IOException, ClassNotFoundException {
+    public String server_respond() throws IOException, ClassNotFoundException, InterruptedException {
 
-        JabberMessage jm = client.feedback();
+        Thread.sleep(50);
+        protocol = client.protocol;
+        data = client.data;
 
-        protocol = jm.getMessage();
-        data = jm.getData();
-
-        System.out.println("controller_protocol: " + protocol);
+        System.out.println("controller_protocol: " + client.protocol);
         System.out.println("controller_data: " + data);
 
         return protocol;
     }
 
     public ArrayList<ArrayList<String>> data_respond() throws IOException, ClassNotFoundException {
-        System.out.println("data_respond: " + client.jm.getMessage());
+        System.out.println("data_respond: " + data);
         return data;
     }
 
@@ -63,4 +62,5 @@ public class Controller_Ass_2 {
     public void timeLine() throws IOException {
         client.getTimeline();
     }
+
 }

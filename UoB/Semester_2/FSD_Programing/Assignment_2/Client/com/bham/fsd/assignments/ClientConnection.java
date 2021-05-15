@@ -17,10 +17,14 @@ public class ClientConnection implements Serializable {
     ObjectInputStream ois;
     JabberMessage jm;
 
+    String protocol;
+    ArrayList<ArrayList<String>> data;
+
     public synchronized void run() throws IOException, ClassNotFoundException {
 
         oos = new ObjectOutputStream(socket.getOutputStream());
         ois = new ObjectInputStream(socket.getInputStream());
+        feedback();
     }
 
     public Connection connectionState() {
@@ -47,14 +51,16 @@ public class ClientConnection implements Serializable {
         oos.flush();
     }
 
-    public JabberMessage feedback() throws IOException, ClassNotFoundException {
+    public void feedback() throws IOException, ClassNotFoundException {
 
-        jm = (JabberMessage) ois.readObject();
+        while (true) {
+            jm = (JabberMessage) ois.readObject();
 
-        System.out.println("connection_protocol: " + jm.getMessage());
-        System.out.println("connection_data: " + jm.getData());
+            protocol = jm.getMessage();
+            data = jm.getData();
 
-        return jm;
+            System.out.println("feedback: " + protocol);
+        }
     }
 
     public void getTimeline() throws IOException {
@@ -71,4 +77,5 @@ public class ClientConnection implements Serializable {
         oos.flush();
         System.out.println("signOut: sent.");
     }
+
 }
