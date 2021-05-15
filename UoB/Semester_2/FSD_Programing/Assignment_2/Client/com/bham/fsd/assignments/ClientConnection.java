@@ -6,17 +6,18 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.net.Socket;
 import java.sql.Connection;
+import java.util.ArrayList;
 
 public class ClientConnection implements Serializable {
 
-    public String message;
+    public transient String message;
     Socket socket;
     JabberDatabase jd;
     ObjectOutputStream oos;
     ObjectInputStream ois;
-    public JabberMessage jm;
+    JabberMessage jm;
 
-    public void run() throws IOException, ClassNotFoundException {
+    public synchronized void run() throws IOException, ClassNotFoundException {
 
         oos = new ObjectOutputStream(socket.getOutputStream());
         ois = new ObjectInputStream(socket.getInputStream());
@@ -47,6 +48,27 @@ public class ClientConnection implements Serializable {
     }
 
     public JabberMessage feedback() throws IOException, ClassNotFoundException {
-        return (JabberMessage) ois.readObject();
+
+        jm = (JabberMessage) ois.readObject();
+
+        System.out.println("connection_protocol: " + jm.getMessage());
+        System.out.println("connection_data: " + jm.getData());
+
+        return jm;
+    }
+
+    public void getTimeline() throws IOException {
+
+        JabberMessage command = new JabberMessage("timeline");
+        oos.writeObject(command);
+        oos.flush();
+    }
+
+    public void signOut() throws IOException {
+
+        JabberMessage command = new JabberMessage("signout");
+        oos.writeObject(command);
+        oos.flush();
+        System.out.println("signOut: sent.");
     }
 }

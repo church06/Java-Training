@@ -1,14 +1,19 @@
 package com.bham.fsd.assignments;
 
+import Polymorphism.demo05.Mouse;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseButton;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -37,7 +42,7 @@ public class JabberUI {
 
 
     final Image like_icon = new Image("file:/Client/icons/like_red.png");
-    ImageView like =new ImageView();
+    ImageView like = new ImageView();
 
     boolean online = false;
 
@@ -48,8 +53,9 @@ public class JabberUI {
 
     public void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
 
-        Platform.runLater(() -> {
-            ObservableList<ArrayList<String>> timeline = FXCollections.observableArrayList();
+        ObservableList<ArrayList<String>> timeline = FXCollections.observableArrayList();
+
+        if (timelineData != null) {
 
             for (ArrayList<String> i : timelineData) {
                 ArrayList<String> input = new ArrayList<>();
@@ -74,28 +80,32 @@ public class JabberUI {
 
             ObservableList<ImageView> list = FXCollections.observableArrayList(content);
             icon.setItems(list);
-
-        });
+        }
     }
 
-    public void Login_func(ActionEvent event) {
+    public void Login_func() {
 
 
         Platform.runLater(() -> {
+
             try {
+
+                if (B1.getText().equals("Sign Out")) {
+
+                    controller.signOut();
+                    ((Stage) (B1.getScene().getWindow())).close();
+                }
 
                 if (B1.getText().equals("Sign In")) {
                     controller.login(T1.getText());
 
                     login_detect();
+                    Sign_state();
 
                     ArrayList<ArrayList<String>> timeline = controller.data_respond();
+                    System.out.println("array timeline: " + timeline);
                     showTimeLine(timeline);
 
-                    Sign_state();
-                } else {
-                    controller.disconnect();
-                    ((Stage) (B1.getScene().getWindow())).close();
                 }
 
             } catch (IOException | ClassNotFoundException e) {
@@ -110,14 +120,12 @@ public class JabberUI {
         Platform.runLater(() -> {
 
             try {
+
                 if (B1.getText().equals("Sign In")) {
                     controller.register(T1.getText());
                     login_detect();
                     Sign_state();
 
-                } else {
-                    controller.disconnect();
-                    ((Stage) (B1.getScene().getWindow())).close();
                 }
             } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
@@ -144,11 +152,14 @@ public class JabberUI {
 
         String respond = controller.server_respond();
 
+
         if (respond.equals("unknown-user")) {
             E1.setText("Invalid username.");
 
         } else {
             online = true;
+            controller.timeLine();
+            E1.setTextFill(Color.GREEN);
             E1.setText("Login successful.");
         }
     }

@@ -13,6 +13,7 @@ public class test {
 
     JabberDatabase jd = new JabberDatabase();
     JabberMessage jm;
+    int userid;
 
     public synchronized static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 
@@ -22,7 +23,6 @@ public class test {
 
         ServerSocket income = new ServerSocket(44444);
         System.out.println("Running...");
-        boolean printed = false;
 
         Socket socket = income.accept();
 
@@ -41,14 +41,14 @@ public class test {
                 if (command.length == 2) {
                     server.protocol_respond(command, send);
                 } else {
-                    server.protocol_respond(new String[]{"", ""}, send);
+                    server.protocol_respond(new String[]{command[0], null}, send);
                 }
 
             } catch (SocketException | EOFException e) {
                 ois.close();
                 send.close();
 
-                System.out.println("Client Offline.");
+                System.out.println("Client Offline.\n");
 
                 socket = income.accept();
                 ois = new ObjectInputStream(socket.getInputStream());
@@ -64,9 +64,13 @@ public class test {
         String protocol = command[0];
         String content = command[1];
 
+        System.out.println("protocol: " + protocol);
+        System.out.println("content: " + content);
+
         switch (protocol) {
             default:
                 System.out.println("default: unknown-user");
+
                 jm = new JabberMessage("unknown-user");
                 send.writeObject(jm);
                 send.flush();
@@ -74,34 +78,68 @@ public class test {
 
             case "signin":
 
-                if (jd.getUserID(content) != -1) {
+                if (content != null) {
 
-                    System.out.println("signedin");
+                    if (jd.getUserID(content) != -1) {
+                        userid = jd.getUserID(content);
 
-                    ArrayList<ArrayList<String>> output = jd.getTimelineOfUserEx(content);
+                        System.out.println("signedin");
 
-                    jm = new JabberMessage("signedin", output);
-                    send.writeObject(jm);
+                        jm = new JabberMessage("signedin");
+                        send.writeObject(jm);
+
+                    } else {
+                        System.out.println("signin: unknown-user");
+                        error_report(send);
+                    }
 
                 } else {
                     System.out.println("signin: unknown-user");
-                    jm = new JabberMessage("unknown-user");
-                    send.writeObject(jm);
+                    error_report(send);
                 }
 
                 send.flush();
                 break;
 
             case "register":
-                if (jd.getUserID(content) == -1) {
-                    jd.addUser(content, "N/A");
 
-                    jm = new JabberMessage("signedin");
-                    send.writeObject(jm);
-                    send.flush();
+                if (content != null) {
+
+                    if (jd.getUserID(content) == -1) {
+                        jd.addUser(content, "N/A");
+
+                        userid = jd.getUserID(content);
+
+                        jm = new JabberMessage("signedin");
+                        send.writeObject(jm);
+                        send.flush();
+                    }
+                } else {
+                    error_report(send);
                 }
+
+                break;
+
+            case "timeline":
+
+                ArrayList<ArrayList<String>> output = jd.getTimelineOfUserEx(userid);
+
+                jm = new JabberMessage("timeline", output);
+
+                send.writeObject(jm);
+                send.flush();
+                System.out.println(jm.getMessage() + " " + jm.getData());
+                break;
+
+            case "signout":
+                System.out.println("Client sign out.");
                 break;
         }
+    }
+
+    private void error_report(ObjectOutputStream send) throws IOException {
+        jm = new JabberMessage("unknown-user");
+        send.writeObject(jm);
     }
 
 }

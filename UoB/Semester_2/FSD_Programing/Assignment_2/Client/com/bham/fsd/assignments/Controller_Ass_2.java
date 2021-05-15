@@ -8,7 +8,10 @@ public class Controller_Ass_2 {
 
     Socket socket = new Socket("192.168.86.101", 44444);
     ClientConnection client;
-    JabberMessage jm;
+
+    String protocol;
+    ArrayList<ArrayList<String>> data;
+
 
     public Controller_Ass_2() throws IOException {
         new Thread(() -> {
@@ -33,17 +36,31 @@ public class Controller_Ass_2 {
     }
 
     public String server_respond() throws IOException, ClassNotFoundException {
-        jm = client.feedback();
-        return jm.getMessage();
+
+        JabberMessage jm = client.feedback();
+
+        protocol = jm.getMessage();
+        data = jm.getData();
+
+        System.out.println("controller_protocol: " + protocol);
+        System.out.println("controller_data: " + data);
+
+        return protocol;
     }
 
-    public ArrayList<ArrayList<String>> data_respond() {
-        return jm.getData();
+    public ArrayList<ArrayList<String>> data_respond() throws IOException, ClassNotFoundException {
+        System.out.println("data_respond: " + client.jm.getMessage());
+        return data;
     }
 
-    public void disconnect() throws IOException {
+    public void signOut() throws IOException {
+        client.signOut();
         client.ois.close();
         client.oos.close();
         socket.close();
+    }
+
+    public void timeLine() throws IOException {
+        client.getTimeline();
     }
 }
