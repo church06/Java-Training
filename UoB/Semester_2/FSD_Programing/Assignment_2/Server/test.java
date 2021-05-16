@@ -59,7 +59,7 @@ public class test {
         }
     }
 
-    private void protocol_respond(String[] command, ObjectOutputStream send) throws IOException {
+    void protocol_respond(String[] command, ObjectOutputStream send) throws IOException {
 
         String protocol = command[0];
         String content = command[1];
@@ -113,11 +113,13 @@ public class test {
                         jm = new JabberMessage("signedin");
                         send.writeObject(jm);
                         send.flush();
+
+                    } else {
+                        error_report(send);
                     }
                 } else {
                     error_report(send);
                 }
-
                 break;
 
             case "timeline":
@@ -134,6 +136,22 @@ public class test {
             case "signout":
                 System.out.println("Client sign out.");
                 break;
+
+            case "like":
+
+                if (content!= null) {
+
+                    int jabid = Integer.parseInt(content.split(" ")[1]);
+
+                    jd.addLike(userid, jabid);
+
+                    jm = new JabberMessage("like");
+                    send.writeObject(jm);
+                    send.flush();
+
+                } else {
+                    error_report(send);
+                }
         }
     }
 

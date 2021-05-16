@@ -1,25 +1,21 @@
 package com.bham.fsd.assignments;
 
-import Polymorphism.demo05.Mouse;
-import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.ResourceBundle;
 
-public class JabberUI {
+public class JabberUI implements Initializable {
 
     @FXML
     private TextField T1;
@@ -29,27 +25,62 @@ public class JabberUI {
     private Button B1;
     @FXML
     private Button B2;
-    @FXML
-    private ListView<String> username_timeline;
-    @FXML
-    private ListView<ImageView> icon;
-    @FXML
-    private ListView<String> likes_num;
 
+    // Button Group ========================
+    @FXML
+    private Button[] B4;
+    @FXML
+    private Button[] B5;
+    // =====================================
 
-    final Image like_icon = new Image("file:/Client/icons/like_red.png");
-    ImageView like = new ImageView(like_icon);
+    // Panel 1 -> P1 =======================
+    @FXML
+    TableView<TimeLine> timelineShow;
+    @FXML
+    TableColumn<TimeLine, String> line;
+    @FXML
+    TableColumn<TimeLine, Button> buttons;
+    @FXML
+    TableColumn<TimeLine, String> count;
+    // =====================================
 
+    // Panel 2 -> P2 =======================
+    @FXML
+    TableView<Users> userFollowShow;
+    @FXML
+    TableColumn<Users, String> username;
+    @FXML
+    TableColumn<Users, Button> addButtons;
+    // =====================================
+
+    // Online state setting
     boolean online = false;
+
+    // button counter
+    int button4_amount = 0;
+    int button5_amount = 0;
+
+    // for show timeline
+    ArrayList<ArrayList<String>> timeline = new ArrayList<>();
+
+    // for show users
+    ArrayList<ArrayList<String>> userLine = new ArrayList<>();
 
     Controller_Ass_2 controller = new Controller_Ass_2();
 
     public JabberUI() throws IOException {
     }
 
-    public void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        ObservableList<ArrayList<String>> timeline = FXCollections.observableArrayList();
+        line.setCellValueFactory(new PropertyValueFactory<>("timeline"));
+        buttons.setCellValueFactory(new PropertyValueFactory<>("B4"));
+        count.setCellValueFactory(new PropertyValueFactory<>("counter"));
+
+    }
+
+    public void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
 
         if (timelineData != null) {
 
@@ -57,23 +88,18 @@ public class JabberUI {
                 ArrayList<String> input = new ArrayList<>();
 
                 input.add(i.get(0) + ": " + i.get(1));
+                input.add(i.get(2));
                 input.add(i.get(3));
-
                 timeline.add(input);
             }
 
-            System.out.println(timeline);
+            System.out.println("\nTimeline: " + timeline);
 
-            for (ArrayList<String> i : timeline) {
-
-                username_timeline.getItems().add(i.get(0));
-
-                likes_num.getItems().add(i.get(i.size() - 1));
-            }
-
+            timelineShow.setItems(timeLines(timeline));
         }
     }
 
+    // Button Function =================================================================================================
     public void Login_func() {
 
         try {
@@ -89,19 +115,14 @@ public class JabberUI {
 
                 login_detect();
                 Sign_state();
-
-                Thread.sleep(50);
-                ArrayList<ArrayList<String>> timeline = controller.data_respond();
-                System.out.println("array timeline: " + timeline + "\n");
-                showTimeLine(timeline);
-
             }
 
-        } catch (IOException | ClassNotFoundException | InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
     }
+// =====================================================================================================================
 
     public void Register_func() {
 
@@ -113,12 +134,13 @@ public class JabberUI {
                 Sign_state();
 
             }
-        } catch (IOException | ClassNotFoundException | InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
     }
 
+    // FOR LOGIN STATE EVENT ===========================================================================================
     public void Sign_state() {
 
         if (B1.getText().equals("Sign In") && online) {
@@ -132,7 +154,8 @@ public class JabberUI {
         }
     }
 
-    public void login_detect() throws IOException, ClassNotFoundException, InterruptedException {
+
+    public void login_detect() throws InterruptedException {
 
         String respond = controller.server_respond();
 
@@ -144,14 +167,93 @@ public class JabberUI {
             controller.timeLine();
             controller.server_respond();
 
+            Thread.sleep(50);
+
+             timeline = controller.data_respond();
+            showTimeLine(timeline);
+            refresh();
+
+            controller.notFollowedUser();
+            controller.server_respond();
+
+            Thread.sleep(50);
+
+            userLine = controller.data_respond();
+            refresh();
+
             E1.setTextFill(Color.GREEN);
             E1.setText("Login successful.");
         }
     }
 
     public void refresh() {
-        username_timeline.refresh();
-        icon.refresh();
-        likes_num.refresh();
+        timelineShow.refresh();
     }
+
+// =====================================================================================================================
+
+    // Timeline relevant ===============================================================================================
+    public ObservableList<TimeLine> timeLines(ArrayList<ArrayList<String>> input) {
+        ObservableList<TimeLine> output = FXCollections.observableArrayList();
+
+        B4 = new Button[input.size()];
+        button4_amount = B4.length;
+
+        for (int i = 0; i < B4.length; i++) {
+            B4[i] = new Button();
+            B4[i].setOnAction(this::likeDefaultHandler);
+        }
+
+        for (int i = 0; i < input.size(); i++) {
+            output.add(new TimeLine(input.get(i).get(0), B4[i], input.get(i).get(2)));
+        }
+
+        return output;
+    }
+
+    public void likeDefaultHandler(ActionEvent event) {
+
+        for (int i = 0; i < button4_amount; i++) {
+
+            if (event.getSource() == B4[i]) {
+
+                System.out.println("The amount of Likes are: " + count.getCellObservableValue(i) +
+                        " for Button[" + i + "].");
+
+                try {
+                    controller.addLike(timeline.get(i).get(1));
+
+                    System.out.println("Protocol: " + controller.server_respond());
+
+                    if (controller.server_respond().equals("posted")) {
+                        int added = Integer.parseInt(timeline.get(i).get(2));
+
+                        ++added;
+
+                        timeline.get(i).set(2, String.valueOf(added));
+                    }
+
+                    timelineShow.setItems(timeLines(timeline));
+                    refresh();
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }
+    }
+// =====================================================================================================================
+
+    public void followEventHandler(ActionEvent event) {
+
+        for (int i = 0; i < button5_amount; i++) {
+
+            if (event.getSource() == B5[i]) {
+
+            }
+        }
+    }
+
+
 }

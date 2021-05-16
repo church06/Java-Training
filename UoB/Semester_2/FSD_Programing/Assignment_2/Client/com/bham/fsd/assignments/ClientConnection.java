@@ -5,6 +5,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.net.Socket;
+import java.net.SocketException;
 import java.sql.Connection;
 import java.util.ArrayList;
 
@@ -20,11 +21,16 @@ public class ClientConnection implements Serializable {
     String protocol;
     ArrayList<ArrayList<String>> data;
 
-    public synchronized void run() throws IOException, ClassNotFoundException {
+    public synchronized void run() {
 
-        oos = new ObjectOutputStream(socket.getOutputStream());
-        ois = new ObjectInputStream(socket.getInputStream());
-        feedback();
+        try {
+            oos = new ObjectOutputStream(socket.getOutputStream());
+            ois = new ObjectInputStream(socket.getInputStream());
+            feedback();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public Connection connectionState() {
@@ -36,46 +42,99 @@ public class ClientConnection implements Serializable {
         this.jd = jd;
     }
 
-    public void login(String username) throws IOException {
+    public void login(String username) {
 
-        JabberMessage command = new JabberMessage("signin " + username);
-        oos.writeObject(command);
-        oos.flush();
+        try {
+            JabberMessage command = new JabberMessage("signin " + username);
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    public void register(String username) throws IOException {
+    public void register(String username) {
 
-        JabberMessage command = new JabberMessage("register " + username);
-        oos.writeObject(command);
-        oos.flush();
-    }
+        try {
+            JabberMessage command = new JabberMessage("register " + username);
+            oos.writeObject(command);
+            oos.flush();
 
-    public void feedback() throws IOException, ClassNotFoundException {
-
-        while (true) {
-            jm = (JabberMessage) ois.readObject();
-
-            protocol = jm.getMessage();
-            data = jm.getData();
-
-            System.out.println("feedback: " + protocol);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
-    public void getTimeline() throws IOException {
+    public void feedback() {
 
-        JabberMessage command = new JabberMessage("timeline");
-        oos.writeObject(command);
-        oos.flush();
+        while (true) {
+            try {
+                jm = (JabberMessage) ois.readObject();
+
+                protocol = jm.getMessage();
+                data = jm.getData();
+
+                System.out.println("\nfeedback: " + protocol);
+                System.out.println("Connection Data: " + data);
+
+            } catch (IOException | ClassNotFoundException e) {
+                System.out.println("Sign Out.");
+                break;
+            }
+        }
+    }
+
+    public void getTimeline() {
+
+        try {
+            JabberMessage command = new JabberMessage("timeline");
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void signOut() throws IOException {
 
-        JabberMessage command = new JabberMessage("signout");
-        oos.writeObject(command);
-        oos.flush();
+        try {
+            JabberMessage command = new JabberMessage("signout");
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (SocketException e) {
+            socket = new Socket();
+
+            oos = new ObjectOutputStream(socket.getOutputStream());
+            ois = new ObjectInputStream(socket.getInputStream());
+        }
+
         System.out.println("signOut: sent.");
+    }
+
+    public void like(String jab) {
+
+        try {
+            JabberMessage command = new JabberMessage("like " + jab);
+            oos.writeObject(command);
+            oos.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void notFollowed() {
+        try {
+            JabberMessage command = new JabberMessage("users");
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
