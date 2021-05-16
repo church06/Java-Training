@@ -80,7 +80,7 @@ public class JabberUI implements Initializable {
 
     }
 
-    public void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
+    public synchronized void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
 
         if (timelineData != null) {
 
@@ -122,7 +122,6 @@ public class JabberUI implements Initializable {
         }
 
     }
-// =====================================================================================================================
 
     public void Register_func() {
 
@@ -139,6 +138,8 @@ public class JabberUI implements Initializable {
         }
 
     }
+
+// =====================================================================================================================
 
     // FOR LOGIN STATE EVENT ===========================================================================================
     public void Sign_state() {
@@ -169,8 +170,8 @@ public class JabberUI implements Initializable {
 
             Thread.sleep(50);
 
-             timeline = controller.data_respond();
-            showTimeLine(timeline);
+            ArrayList<ArrayList<String>> temp = controller.data_respond();
+            showTimeLine(temp);
             refresh();
 
             controller.notFollowedUser();
@@ -245,6 +246,7 @@ public class JabberUI implements Initializable {
     }
 // =====================================================================================================================
 
+    // Not Follow Related
     public void followEventHandler(ActionEvent event) {
 
         for (int i = 0; i < button5_amount; i++) {
@@ -255,5 +257,13 @@ public class JabberUI implements Initializable {
         }
     }
 
+    public ObservableList<TimeLine> userLines(ArrayList<ArrayList<String>> input) {
+        ObservableList<TimeLine> output = FXCollections.observableArrayList();
 
+
+
+        return output;
+    }
+
+// =====================================================================================================================
 }

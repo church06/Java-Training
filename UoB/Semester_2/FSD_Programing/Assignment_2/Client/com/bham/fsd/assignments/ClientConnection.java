@@ -127,6 +127,7 @@ public class ClientConnection implements Serializable {
     }
 
     public void notFollowed() {
+
         try {
             JabberMessage command = new JabberMessage("users");
             oos.writeObject(command);

@@ -1,13 +1,15 @@
+//import com.bham.fsd.assignments.JabberDatabase;
+//import com.bham.fsd.assignments.JabberMessage;
+
 import com.bham.fsd.assignments.JabberDatabase;
 import com.bham.fsd.assignments.JabberMessage;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.SocketException;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class test_2 {
 
@@ -20,9 +22,9 @@ public class test_2 {
     public synchronized static void main(String[] args) throws IOException, ClassNotFoundException, SQLException {
 
 
-        test_2 server = new test_2();
+//        test_2 server = new test_2();
 
-        JabberMessage data_receive;
+//        JabberMessage data_receive;
 
         ServerSocket income;
 
@@ -30,46 +32,51 @@ public class test_2 {
 
         System.out.println("Running...");
 
-        Socket socket = income.accept();
-
-        ObjectOutputStream send = new ObjectOutputStream(socket.getOutputStream());
-        ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
-
         while (true) {
-
-            try {
-
-
-                data_receive = (JabberMessage) ois.readObject();
-
-                // command store
-                String[] command = data_receive.getMessage().split(" ");
-                System.out.println(Arrays.toString(command));
-
-                // judge command format & respond client message
-                if (command.length == 2) {
-                    server.protocol_respond(command, send);
-                } else {
-                    server.protocol_respond(new String[]{command[0], ""}, send);
-                }
-
-            } catch (IOException | ClassNotFoundException e) {
-                ois.close();
-                send.close();
-
-                System.out.println("Client Offline.");
-
-                socket = income.accept();
-                ois = new ObjectInputStream(socket.getInputStream());
-                send = new ObjectOutputStream(socket.getOutputStream());
-
-            }
-
+            Socket socket = income.accept();
+            CHandler cHandler = new CHandler(socket);
+            cHandler.run();
         }
+
+
+//        ObjectOutputStream send = new ObjectOutputStream(socket.getOutputStream());
+//        ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
+//
+//        while (true) {
+//
+//            try {
+//
+//
+//                data_receive = (JabberMessage) ois.readObject();
+//
+//                // command store
+//                String[] command = data_receive.getMessage().split(" ");
+//                System.out.println(Arrays.toString(command));
+//
+//                // judge command format & respond client message
+//                if (command.length == 2) {
+//                    server.protocol_respond(command, send);
+//                } else {
+//                    server.protocol_respond(new String[]{command[0], ""}, send);
+//                }
+//
+//            } catch (IOException | ClassNotFoundException e) {
+//                ois.close();
+//                send.close();
+//
+//                System.out.println("Client Offline.");
+//
+//                socket = income.accept();
+//                ois = new ObjectInputStream(socket.getInputStream());
+//                send = new ObjectOutputStream(socket.getOutputStream());
+//
+//            }
+//
+//        }
     }
 
 
-    private void protocol_respond(String[] command, ObjectOutputStream send) throws IOException {
+    public void protocol_respond(String[] command, ObjectOutputStream send) throws IOException {
 
         String protocol = command[0];
         String content = command[1];
