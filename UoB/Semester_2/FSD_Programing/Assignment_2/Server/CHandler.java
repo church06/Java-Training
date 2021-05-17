@@ -1,3 +1,4 @@
+import com.bham.fsd.assignments.JabberDatabase;
 import com.bham.fsd.assignments.JabberMessage;
 
 import java.io.IOException;
@@ -6,8 +7,10 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.Arrays;
 
-public class CHandler implements Runnable{
+public class CHandler implements Runnable {
     private Socket socket;
+    JabberMessage message;
+    JabberDatabase jd;
 
     public CHandler(Socket clientSocket) {
         this.socket = clientSocket;
@@ -26,17 +29,49 @@ public class CHandler implements Runnable{
                     JabberMessage data_receive;
 
                     data_receive = (JabberMessage) ois.readObject();
+                    System.out.println("Socket input: " + data_receive.getMessage());
 
+                    String letter = data_receive.getMessage();
+                    System.out.println("String is: " + letter);
+
+                    String[] command = new String[2];
+                    String pro;
+                    String content;
+
+
+                    switch (letter) {
+                        default:
+
+                            for (int i = 0; i < letter.length(); i++) {
+
+                                if (letter.charAt(i) == ' ') {
+                                    pro = letter.substring(0, i).trim();
+                                    content = letter.substring(i + 1);
+
+                                    command[0] = pro;
+                                    command[1] = content;
+                                }
+                            }
+                            break;
+
+                        case "timeline":
+                        case "signout":
+                        case "users":
+                            command[0] = letter;
+                            command[1] = null;
+
+                            break;
+                    }
+
+
+
+                    System.out.println("Input command: " + Arrays.toString(command));
                     // command store
-                    String[] command = data_receive.getMessage().split(" ");
-                    System.out.println(Arrays.toString(command));
+//                    String[] command = data_receive.getMessage().split(" ");
+//                    System.out.println(Arrays.toString(command));
 
                     // judge command format & respond client message
-                    if (command.length == 2) {
-                        server.protocol_respond(command, send);
-                    } else {
-                        server.protocol_respond(new String[]{command[0], ""}, send);
-                    }
+                    server.protocol_respond(command, send);
 
                 } catch (IOException | ClassNotFoundException e) {
                     ois.close();
@@ -44,16 +79,13 @@ public class CHandler implements Runnable{
 
                     System.out.println("Client Offline.");
 
-                    socket = new Socket();
-                    ois = new ObjectInputStream(socket.getInputStream());
-                    send = new ObjectOutputStream(socket.getOutputStream());
-
+                    break;
                 }
 
             }
-        } catch (Exception e) {
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

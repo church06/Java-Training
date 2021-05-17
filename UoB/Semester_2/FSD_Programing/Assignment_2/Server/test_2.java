@@ -6,10 +6,12 @@ import com.bham.fsd.assignments.JabberMessage;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class test_2 {
 
@@ -35,7 +37,7 @@ public class test_2 {
         while (true) {
             Socket socket = income.accept();
             CHandler cHandler = new CHandler(socket);
-            cHandler.run();
+            new Thread(cHandler).start();
         }
 
 
@@ -78,49 +80,57 @@ public class test_2 {
 
     public void protocol_respond(String[] command, ObjectOutputStream send) throws IOException {
 
+        System.out.println(Arrays.toString(command));
+
         String protocol = command[0];
         String content = command[1];
 
+        System.out.println("content: " + content);
+
         switch (protocol) {
             default:
-                System.out.println("default: unknown-user");
-                jm = new JabberMessage("unknown-user");
-                send.writeObject(jm);
-                send.flush();
+                errorDetect(send);
                 break;
 
             case "signin":
+                if (!content.equals("")) {
+                    if (jd.getUserID(content) != -1) {
 
-                if (jd.getUserID(content) != -1) {
+                        System.out.println("signedin");
 
-                    System.out.println("signedin");
+                        jm = new JabberMessage("signedin");
+                        send.writeObject(jm);
 
-                    ArrayList<ArrayList<String>> output = jd.getTimelineOfUserEx(content);
+                    } else {
+                        errorDetect(send);
+                    }
 
-                    jm = new JabberMessage("signedin", output);
-                    send.writeObject(jm);
+                    username = command[1];
+                    userid = jd.getUserID(username);
 
                 } else {
-                    System.out.println("signin: unknown-user");
-                    jm = new JabberMessage("unknown-user");
-                    send.writeObject(jm);
+                    errorDetect(send);
                 }
-                username = command[1];
-                userid = jd.getUserID(username);
-
-
                 send.flush();
                 break;
 
             case "register":
-                if (jd.getUserID(content) == -1) {
-                    jd.addUser(content, "N/A");
+                if (!content.equals("")) {
+                    if (jd.getUserID(content) == -1) {
+                        jd.addUser(content, "N/A");
 
-                    jm = new JabberMessage("signedin");
-                    send.writeObject(jm);
-                    send.flush();
+                        jm = new JabberMessage("signedin");
+                        send.writeObject(jm);
+                        send.flush();
+
+                    } else {
+                        errorDetect(send);
+                    }
+                } else {
+                    errorDetect(send);
                 }
                 break;
+
             case "signout":
                 System.out.println("Client Offline.");
                 break;
@@ -131,6 +141,12 @@ public class test_2 {
                 send.writeObject(jm);
                 break;
 
+            case "users":
+                ArrayList<ArrayList<String>> usersNotFollowed1 = jd.getUsersNotFollowed(userid);
+                jm = new JabberMessage("users", usersNotFollowed1);
+                send.writeObject(jm);
+//                forClient.flush();
+                break;
             case "like":
 
                 jd.addLike(userid, Integer.parseInt(command[1]));//将第二个元素转换成int类型
@@ -150,6 +166,19 @@ public class test_2 {
                 jm = new JabberMessage("posted");
                 send.writeObject(jm);
                 break;
+        }
+    }
+
+    private void errorDetect(ObjectOutputStream send) {
+
+        try {
+            System.out.println("Error detect: unknown-user");
+            jm = new JabberMessage("unknown-user");
+            send.writeObject(jm);
+            send.flush();
+
+        }catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

@@ -17,6 +17,7 @@ import java.util.ResourceBundle;
 
 public class JabberUI implements Initializable {
 
+    // Login ===============================
     @FXML
     private TextField T1;
     @FXML
@@ -25,6 +26,7 @@ public class JabberUI implements Initializable {
     private Button B1;
     @FXML
     private Button B2;
+    // =====================================
 
     // Button Group ========================
     @FXML
@@ -53,6 +55,13 @@ public class JabberUI implements Initializable {
     TableColumn<Users, Button> addButtons;
     // =====================================
 
+    // Post Jab ============================
+    @FXML
+    private TextField T2;
+    @FXML
+    private Button B6;
+    // ====================================
+
     // Online state setting
     boolean online = false;
 
@@ -78,11 +87,16 @@ public class JabberUI implements Initializable {
         buttons.setCellValueFactory(new PropertyValueFactory<>("B4"));
         count.setCellValueFactory(new PropertyValueFactory<>("counter"));
 
+        username.setCellValueFactory(new PropertyValueFactory<>("username"));
+        addButtons.setCellValueFactory(new PropertyValueFactory<>("btn"));
+
     }
 
+    // GUI show & Refresh for timeline and follow users ================================================================
     public synchronized void showTimeLine(ArrayList<ArrayList<String>> timelineData) {
 
         if (timelineData != null) {
+            timeline.clear();
 
             for (ArrayList<String> i : timelineData) {
                 ArrayList<String> input = new ArrayList<>();
@@ -98,6 +112,18 @@ public class JabberUI implements Initializable {
             timelineShow.setItems(timeLines(timeline));
         }
     }
+
+    public synchronized void showUserLine(ArrayList<ArrayList<String>> userFollowData) {
+
+        if (userFollowData != null) {
+            userLine = userFollowData;
+        }
+
+        System.out.println("\nNot Followed Users: " + userLine);
+        userFollowShow.setItems(userLines(userLine));
+    }
+
+// =====================================================================================================================
 
     // Button Function =================================================================================================
     public void Login_func() {
@@ -179,7 +205,8 @@ public class JabberUI implements Initializable {
 
             Thread.sleep(50);
 
-            userLine = controller.data_respond();
+            ArrayList<ArrayList<String>> follow_temp = controller.data_respond();
+            showUserLine(follow_temp);
             refresh();
 
             E1.setTextFill(Color.GREEN);
@@ -189,6 +216,7 @@ public class JabberUI implements Initializable {
 
     public void refresh() {
         timelineShow.refresh();
+        userFollowShow.refresh();
     }
 
 // =====================================================================================================================
@@ -234,7 +262,20 @@ public class JabberUI implements Initializable {
                         timeline.get(i).set(2, String.valueOf(added));
                     }
 
+                    controller.timeLine();
+
+                    if (controller.server_respond().equals("timeline")) {
+
+                        ArrayList<ArrayList<String>> temp = controller.data_respond();
+                        System.out.println("B5 Data Update: " + controller.data_respond());
+                        showTimeLine(temp);
+                    }
+
                     timelineShow.setItems(timeLines(timeline));
+
+                    Thread.sleep(50);
+                    userFollowShow.setItems(userLines(userLine));
+
                     refresh();
 
                 } catch (InterruptedException e) {
@@ -244,26 +285,100 @@ public class JabberUI implements Initializable {
             }
         }
     }
-// =====================================================================================================================
 
+    // =====================================================================================================================
     // Not Follow Related
+    public synchronized ObservableList<Users> userLines(ArrayList<ArrayList<String>> input) {
+        ObservableList<Users> output = FXCollections.observableArrayList();
+
+        B5 = new Button[input.size()];
+        button5_amount = input.size();
+
+        for (int i = 0; i < B5.length; i++) {
+            B5[i] = new Button();
+            B5[i].setOnAction(this::followEventHandler);
+        }
+
+        for (int i = 0; i < input.size(); i++) {
+            output.add(new Users(input.get(i).get(0), B5[i]));
+        }
+
+        return output;
+    }
+
     public void followEventHandler(ActionEvent event) {
 
         for (int i = 0; i < button5_amount; i++) {
 
             if (event.getSource() == B5[i]) {
 
+                System.out.println("B5 is working, and the username is " + username.getCellObservableValue(i));
+
+                try {
+                    controller.followButton(userLine.get(i).get(0));
+                    System.out.println("Protocol: " + controller.server_respond());
+
+                    if (controller.server_respond().equals("posted")) {
+                        userLine.remove(i);
+                    }
+
+                    controller.timeLine();
+
+                    if (controller.server_respond().equals("timeline")) {
+
+                        ArrayList<ArrayList<String>> temp = controller.data_respond();
+                        System.out.println("B5 Data Update: " + controller.data_respond());
+                        showTimeLine(temp);
+                    }
+
+                    timelineShow.setItems(timeLines(timeline));
+
+                    Thread.sleep(50);
+                    userFollowShow.setItems(userLines(userLine));
+
+                    refresh();
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
 
-    public ObservableList<TimeLine> userLines(ArrayList<ArrayList<String>> input) {
-        ObservableList<TimeLine> output = FXCollections.observableArrayList();
+// =====================================================================================================================
 
+    // Post Jab functions
 
+    public void postJab() {
 
-        return output;
+        if (T2.getText() != null) {
+
+            controller.postTo(T2.getText());
+
+            try {
+                if (controller.server_respond().equals("posted")) {
+                    controller.timeLine();
+                    Thread.sleep(50);
+
+                    if (controller.server_respond().equals("timeline")) {
+                        ArrayList<ArrayList<String>> temp = controller.data_respond();
+                        System.out.println("B6 Data Update: " + controller.data_respond());
+                        showTimeLine(temp);
+
+                    }
+                }
+
+                timelineShow.setItems(timeLines(timeline));
+
+                Thread.sleep(50);
+                userFollowShow.setItems(userLines(userLine));
+
+                refresh();
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
-// =====================================================================================================================
 }

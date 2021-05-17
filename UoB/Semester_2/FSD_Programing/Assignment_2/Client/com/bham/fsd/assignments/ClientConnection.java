@@ -70,6 +70,7 @@ public class ClientConnection implements Serializable {
     public void feedback() {
 
         while (true) {
+
             try {
                 jm = (JabberMessage) ois.readObject();
 
@@ -92,6 +93,7 @@ public class ClientConnection implements Serializable {
             JabberMessage command = new JabberMessage("timeline");
             oos.writeObject(command);
             oos.flush();
+            System.out.println("timeline");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -136,6 +138,31 @@ public class ClientConnection implements Serializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void FollowUser(String username) {
+
+        try {
+            JabberMessage command = new JabberMessage("follow " + username);
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void Post(String jab_txt) {
+
+        try {
+            JabberMessage command = new JabberMessage("post " + jab_txt);
+            oos.writeObject(command);
+            oos.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

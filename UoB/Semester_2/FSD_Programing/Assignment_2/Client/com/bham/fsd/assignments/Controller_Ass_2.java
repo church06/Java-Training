@@ -1,14 +1,12 @@
 package com.bham.fsd.assignments;
 
-import javafx.event.ActionEvent;
-
 import java.io.IOException;
 import java.net.Socket;
 import java.util.ArrayList;
 
 public class Controller_Ass_2 {
 
-    Socket socket = new Socket("192.168.86.101", 44444);
+    Socket socket = new Socket("localhost", 44444);
     ClientConnection client;
 
     String protocol;
@@ -18,11 +16,9 @@ public class Controller_Ass_2 {
     public Controller_Ass_2() throws IOException {
         new Thread(() -> {
             client = new ClientConnection(socket, new JabberDatabase());
-
             client.run();
 
         }).start();
-
     }
 
     public void login(String username) {
@@ -39,9 +35,6 @@ public class Controller_Ass_2 {
         protocol = client.protocol;
         data = client.data;
 
-        System.out.println("controller_protocol: " + client.protocol);
-        System.out.println("controller_data: " + data);
-
         return protocol;
     }
 
@@ -50,6 +43,7 @@ public class Controller_Ass_2 {
     }
 
     public void signOut() {
+
         try {
             client.signOut();
             client.ois.close();
@@ -74,5 +68,11 @@ public class Controller_Ass_2 {
         client.notFollowed();
     }
 
+    public void followButton(String username) {
+        client.FollowUser(username);
+    }
 
+    public void postTo(String jab_txt) {
+        client.Post(jab_txt);
+    }
 }

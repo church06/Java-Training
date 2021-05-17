@@ -1,6 +1,7 @@
 package com.bham.fsd.assignments;
 
-import java.awt.*;
+
+import javafx.scene.control.Button;
 
 public class Users {
 
@@ -10,6 +11,9 @@ public class Users {
     public Users(String username, Button btn) {
         this.username = username;
         this.btn = btn;
+
+        btn.setStyle("-fx-background-color: #12C327");
+
     }
 
     public String getUsername() {
