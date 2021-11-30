@@ -1,5 +1,3 @@
-package com.bham.fsd.assignments;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -1,5 +1,3 @@
-import com.bham.fsd.assignments.JabberDatabase;
-import com.bham.fsd.assignments.JabberMessage;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

@@ -1,5 +1,3 @@
-package com.bham.fsd.assignments;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

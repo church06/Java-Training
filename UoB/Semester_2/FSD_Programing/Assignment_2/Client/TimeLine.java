@@ -1,5 +1,3 @@
-package com.bham.fsd.assignments;
-
 import javafx.scene.control.Button;
 
 public class TimeLine{

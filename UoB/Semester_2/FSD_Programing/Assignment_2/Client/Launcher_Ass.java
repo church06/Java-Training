@@ -1,5 +1,3 @@
-package com.bham.fsd.assignments;
-
 import javafx.application.Application;
 
 public class Launcher_Ass {
